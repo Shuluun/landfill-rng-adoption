@@ -1,0 +1,144 @@
+{
+  "common_states": [
+    "AR",
+    "FL",
+    "GA",
+    "IA",
+    "IL",
+    "IN",
+    "KS",
+    "KY",
+    "LA",
+    "ME",
+    "MI",
+    "MN",
+    "MO",
+    "MS",
+    "MT",
+    "NC",
+    "NE",
+    "NH",
+    "NY",
+    "OH",
+    "OK",
+    "PA",
+    "SC",
+    "TN",
+    "TX",
+    "VA",
+    "WA",
+    "WI",
+    "WV"
+  ],
+  "n_common_states": 29,
+  "per_variant_event_counts": {
+    "orig": 108,
+    "status": 121,
+    "date": 106,
+    "both": 119
+  },
+  "events_dropped_by_common_state": {
+    "orig": [],
+    "status": [
+      184
+    ],
+    "date": [],
+    "both": [
+      184
+    ]
+  },
+  "variant_table": [
+    {
+      "variant": "orig",
+      "n_events": 108,
+      "risk_years": 38107,
+      "n_landfills": 1319,
+      "n_states": 29,
+      "ln_distance": -0.16889298193997868,
+      "cluster_se": 0.070705119166875,
+      "p_cluster": 0.016908321464965015,
+      "conley100_se": 0.07784648526728867,
+      "p_conley100": 0.030039842388052795,
+      "doubling_or": 0.8895249754008977,
+      "separation": "no_direction_detected",
+      "info_condition": 447913.7824196381
+    },
+    {
+      "variant": "status",
+      "n_events": 120,
+      "risk_years": 38106,
+      "n_landfills": 1319,
+      "n_states": 29,
+      "ln_distance": -0.16150966989984483,
+      "cluster_se": 0.06900855027971058,
+      "p_cluster": 0.019261557347158176,
+      "conley100_se": 0.07571020780180747,
+      "p_conley100": 0.03290328228929762,
+      "doubling_or": 0.8940889855753937,
+      "separation": "no_direction_detected",
+      "info_condition": 493007.1010401787
+    },
+    {
+      "variant": "date",
+      "n_events": 106,
+      "risk_years": 38155,
+      "n_landfills": 1319,
+      "n_states": 29,
+      "ln_distance": -0.16745795232344549,
+      "cluster_se": 0.07416425448569741,
+      "p_cluster": 0.023949807685056834,
+      "conley100_se": 0.08123237485913798,
+      "p_conley100": 0.0392584004109775,
+      "doubling_or": 0.8904102142870517,
+      "separation": "no_direction_detected",
+      "info_condition": 436744.66794194706
+    },
+    {
+      "variant": "both",
+      "n_events": 118,
+      "risk_years": 38154,
+      "n_landfills": 1319,
+      "n_states": 29,
+      "ln_distance": -0.1601979627726668,
+      "cluster_se": 0.0721289301698128,
+      "p_cluster": 0.026351328679993458,
+      "conley100_se": 0.07871806070584365,
+      "p_conley100": 0.04184229775559989,
+      "doubling_or": 0.8949022663961864,
+      "separation": "no_direction_detected",
+      "info_condition": 481460.061135135
+    }
+  ],
+  "paired_differences": [
+    {
+      "delta_ln_distance": 0.007383312040133844,
+      "paired_conley100_se": 0.021897736806323797,
+      "delta_ci_low": -0.03553546344319794,
+      "delta_ci_high": 0.05030208752346563,
+      "comparison": "status_vs_orig"
+    },
+    {
+      "delta_ln_distance": 0.00143502961653319,
+      "paired_conley100_se": 0.017059249228641542,
+      "delta_ci_low": -0.03200048447489693,
+      "delta_ci_high": 0.03487054370796331,
+      "comparison": "date_vs_orig"
+    },
+    {
+      "delta_ln_distance": 0.0013117071271780412,
+      "paired_conley100_se": 0.016621174041152376,
+      "delta_ci_low": -0.03126519537425268,
+      "delta_ci_high": 0.03388860962860876,
+      "comparison": "both_vs_status"
+    },
+    {
+      "delta_ln_distance": 0.008695019167311885,
+      "paired_conley100_se": 0.027554477351120592,
+      "delta_ci_low": -0.0453107640537091,
+      "delta_ci_high": 0.06270080238833287,
+      "comparison": "both_vs_orig"
+    }
+  ],
+  "note": "Calendar-group (6 periods) + state FE + log_dist/log_waste, common state support. The legacy -0.1687 used year dummies; this calendar-group spec is the scope's new comparison design.",
+  "ca_note": "CA has no in-window Operational/Shutdown RNG-PI event in the original map (only 4 CA RNG-PI rows: Palos Verdes 1975 Shutdown, Forward 2024 Planned, Keller Canyon 2024 Construction, Simi Valley 2025 Construction). Keller Canyon (184) is added by the 36-facility audit and is CA's sole event, so it drops out of the common-state support (CA zero-event in the original definition)."
+}

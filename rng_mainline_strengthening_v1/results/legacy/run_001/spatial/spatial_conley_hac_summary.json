@@ -1,0 +1,148 @@
+{
+  "started_utc": "2026-11-10T19:50:34.703652+00:00",
+  "duration_seconds": 10.703,
+  "command": "C:\\Users\\<user>\\AppData\\Local\\Programs\\Python\\Python313\\python.exe C:\\Users\\<user>\\Desktop\\Alice_Methane\\scripts\\spatial_conley_hac_20261110.py --output C:\\Users\\<user>\\Desktop\\Alice_Methane\\rng_mainline_strengthening_v1\\results\\legacy\\run_001\\spatial",
+  "python": "3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "numpy": "2.4.4",
+    "pandas": "3.0.2"
+  },
+  "lmop_sha256": "a5c8bea26e7b5f6ecef247b762bde89b999915504814825a1eac7a1cd9f4ddd3",
+  "landfill_csv": "C:\\Users\\<user>\\Desktop\\Alice_Methane\\outputs\\2026-11-04_rng_denominator_gate\\run_001\\landfill_level.csv",
+  "dist_csv": "C:\\Users\\<user>\\Desktop\\Alice_Methane\\outputs\\2026-11-06_rng_distance_geodesic_verify\\run_001\\nearest_pipeline_distance_verified.csv",
+  "script_sha256": "83b5474470f8e5b2138d2791308c7474f41d94f16fc4181b7ba4840341240734",
+  "workspace_git_state": "not_a_git_repository",
+  "random_seed": null,
+  "model_run": true,
+  "synthetic_data_used": false,
+  "kernel": "Bartlett, w = max(0, 1 - d/cutoff)",
+  "cohort_n_landfills": 1821,
+  "results": {
+    "ev_opshut_orig": {
+      "coef_log_dist": -0.17149685153811994,
+      "se_standard": 0.06784357335080443,
+      "p_standard": 0.011477072106176767,
+      "se_landfill_cluster": 0.07221016125887311,
+      "p_landfill_cluster": 0.017550452375588943,
+      "n_landfills": 1319,
+      "n_events": 108,
+      "n_person_years": 38107,
+      "dropped_states": [
+        "AL",
+        "AZ",
+        "CA",
+        "CO",
+        "CT",
+        "DE",
+        "ID",
+        "MA",
+        "MD",
+        "ND",
+        "NJ",
+        "NM",
+        "NV",
+        "OR",
+        "RI",
+        "SD",
+        "UT",
+        "VT",
+        "WY"
+      ],
+      "conley_km": {
+        "25": {
+          "se": 0.07490573418804787,
+          "p": 0.022050183782314825,
+          "n_landfill_pairs_weighted": 2787,
+          "w_sum": 1870.3349932875326
+        },
+        "50": {
+          "se": 0.07681649256001874,
+          "p": 0.025578470288833977,
+          "n_landfill_pairs_weighted": 6689,
+          "w_sum": 3206.2267844977578
+        },
+        "100": {
+          "se": 0.07968124889453827,
+          "p": 0.031374820888339094,
+          "n_landfill_pairs_weighted": 19433,
+          "w_sum": 7880.106340314128
+        },
+        "200": {
+          "se": 0.07592839270425067,
+          "p": 0.023904191481673775,
+          "n_landfill_pairs_weighted": 62203,
+          "w_sum": 23443.49769888686
+        },
+        "400": {
+          "se": 0.0699791845821435,
+          "p": 0.014258516008596622,
+          "n_landfill_pairs_weighted": 205783,
+          "w_sum": 75763.59516646375
+        }
+      }
+    },
+    "ev_opshut_corr": {
+      "coef_log_dist": -0.16870029361524325,
+      "se_standard": 0.0652969032129651,
+      "p_standard": 0.009777852795151087,
+      "se_landfill_cluster": 0.06995200493537433,
+      "p_landfill_cluster": 0.01588018123606938,
+      "n_landfills": 1502,
+      "n_events": 121,
+      "n_person_years": 43593,
+      "dropped_states": [
+        "AL",
+        "AZ",
+        "CO",
+        "CT",
+        "DE",
+        "ID",
+        "MA",
+        "MD",
+        "ND",
+        "NJ",
+        "NM",
+        "NV",
+        "OR",
+        "RI",
+        "SD",
+        "UT",
+        "VT",
+        "WY"
+      ],
+      "conley_km": {
+        "25": {
+          "se": 0.07242736742247491,
+          "p": 0.019846667607672952,
+          "n_landfill_pairs_weighted": 3450,
+          "w_sum": 2234.4148904063786
+        },
+        "50": {
+          "se": 0.07420680301754438,
+          "p": 0.023003264541042512,
+          "n_landfill_pairs_weighted": 8456,
+          "w_sum": 3970.4665781130807
+        },
+        "100": {
+          "se": 0.0766829114152129,
+          "p": 0.02780884870369693,
+          "n_landfill_pairs_weighted": 24014,
+          "w_sum": 9822.32848040506
+        },
+        "200": {
+          "se": 0.07272467465304158,
+          "p": 0.02035646736486596,
+          "n_landfill_pairs_weighted": 73082,
+          "w_sum": 28345.54289796037
+        },
+        "400": {
+          "se": 0.06902705833790707,
+          "p": 0.014526498021308898,
+          "n_landfill_pairs_weighted": 225592,
+          "w_sum": 86037.42261879658
+        }
+      }
+    }
+  }
+}

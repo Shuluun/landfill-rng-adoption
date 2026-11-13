@@ -1,0 +1,22 @@
+landfill_id,parent_project_id,decision,year,date_lower,date_upper,scenario_year,source_ids,physical_system_id,reason
+966,1037,prewindow,1982,1982-01-01,1982-12-31,,FRESH_NYC;FRESH_EPA,,Original 1037-0 precedes the 1995 entry. Subsequent 1037 rows are expansions or de-expansions.
+1465,1542,prewindow,1986,1986-01-01,1986-12-31,,MCCARTY_SEC;MCCARTY_2021,,Already commercial in 1986. The 2021 separately numbered facility does not initiate landfill-level supply.
+838,908,confirmed_post_cutoff,,2024-11-13,2025-09-30,2024,LEMONS_PSC;LEMONS_NOV,,November ceremony preceded actual operations; the dated operating-line filing falls after the 2024-08-31 cutoff.
+12144,181115,unknown_cutoff,,2024-01-29,2026-11-10,2024,QUAD_PINE;QUAD_AVISTA,,Operator documents current injection at the correct site. Forecast and undated operation straddle the cutoff.
+1539,,unknown_cutoff,,2023-07-13,2026-11-10,2024,BAY_PINE;BAY_AVISTA,,Identity and eventual injection now supported. Early-2024 production is forecast rather than observed.
+2001,180965,confirmed_post_cutoff,,,,2024,NCES_SEC;NCES_OFFTAKE,,The 2021 announcement was groundbreaking rather than commissioning; the operator filing uses future construction and the offtake describes 2025-and-later supply.
+1606,1685,confirmed_year,2010,2010-10-01,2010-10-31,2009,CEDAR_2010,,Use documented full operation. First reported sales in 2009 are a milestone sensitivity.
+516,200546,retain_registry,,,,2014,MILAM_WM,,Original 2015 remains a registered date. The 2014 release announces expected rather than completed first injection.
+1150,,unknown_cutoff,,,,2024,WAYNE_NCDEQ,,Regulatory review documents existing electricity use and a prospective RNG conversion. The operation date is unresolved.
+1254,200997,confirmed_year,2021,2021-12-30,2021-12-30,,ASSAI_2021;ASSAI_PA;ALLIANCE_PA_ELEC,assai,Confirmed co-supplier to Assai in 2021. The earlier 1998 pipeline record still precedes this project in the registry.
+1256,200997,confirmed_year,2021,2021-12-30,2021-12-30,,ASSAI_2021;ASSAI_PA,assai,Confirmed co-supplier and site of the shared Assai plant.
+184,201445,confirmed_year,2024,2024-07-01,2024-09-30,,KELLER_IR;KELLER_PORT,,Operator sources disagree on the month. Both support the annual endpoint.
+554,,confirmed_year,2024,2024-01-01,2024-06-13,,FORT_WAYNE_BP,,Online by the June operator announcement. No exact sustained first delivery day assigned.
+2336,201536,confirmed_year,2024,2024-10-01,2024-10-07,,SAMPSON_OPAL;SAMPSON_Q1,,Operator dates commercial operation to the fourth quarter and announces it by October 7.
+1808,201451,confirmed_year,2020,2020-09-01,2020-09-30,,COASTAL_SEC,,Commercial RNG follows the August landmark. Date precision is one month.
+1469,181057,confirmed_post_cutoff,,2024-02-28,2025-04-09,2024,CORPUS_FEB;CORPUS_APR;CORPUS_EPA,corpus_christi,The combined-plant opening reflects Cefe (11862); the J.C. Elliott supply line was authorized in February 2024 and reported complete by April 2025 after the cutoff.
+11862,181057,confirmed_year,2024,2024-04-01,2024-04-30,2023,CORPUS_FEB;CORPUS_APR;CORPUS_EPA,corpus_christi,Commercial project opening supported by first anniversary. The earlier processing milestone is a separate timing sensitivity.
+11240,,confirmed_year,2024,2024-01-01,2024-12-31,,JUNIPER_ME_JUN,,Retain the previously corroborated annual operation. June commissioning and permanent line construction cannot establish status at the August cutoff.
+559,,confirmed_year,2023,2023-12-20,2023-12-20,,PRAIRIE_KM,,Dated commercial service moves this newly eligible project from the registered 2024 proxy to 2023.
+2323,,confirmed_year,2024,2024-06-12,2024-06-12,,WINNEBAGO_NICOR,,Utility confirms the live interconnection at this site in June.
+1254,1329,confirmed_year,1998,1998-01-01,1998-12-31,2021,ALLIANCE_ALIAS;ALLIANCE_BNL;ALLIANCE_EPA,,Confirmed older operating upgrading facility at the same landfill plus registry pipeline delivery. Exact utility delivery day remains unresolved. Assai 2021 is a separate project.

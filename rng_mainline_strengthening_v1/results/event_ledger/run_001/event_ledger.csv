@@ -1,0 +1,125 @@
+﻿landfill_id,landfill_name,ghgrp_id,state,county,final_status,event_year_final,event_year_orig,event_year_after36,supporting_project_ids,supporting_statuses,supporting_start_dates,correction_path,correction_note,source_ids,in_driver_cohort,counted_in_fitted_model
+184,Keller Canyon LF,1004011.0,CA,Contra Costa,event,2024,,2024,,,,audit36_added,,,True,True
+433,New River Regional LF,1005630.0,FL,Union,event,2023,2023,2023,498-0,Operational,2023-01-05,lmop,,,True,True
+448,Seminole Road MSW Landfill,1005638.0,GA,DeKalb,event,2013,2013,2013,200582-0,Shutdown,2013-02-26,lmop,,,True,True
+467,Live Oak LF,1006229.0,GA,DeKalb,event,2009,2009,2009,532-0,Operational,2009-03-01,lmop,,,True,True
+516,Milam Recycling and Disposal Facility,1008269.0,IL,St. Clair,event,2015,2015,2015,200546-0,Operational,2015-03-01,lmop->targeted_confirm,"retain registry date; 2014 release announces expected, not completed, injection",MILAM_WM,True,True
+554,National Serv-All LF,1007520.0,IN,Allen,event,2024,,2024,,,,audit36_added,,,True,True
+559,Prairie View RDF,1007833.0,IN,St. Joseph,event,2023,,2023,,,,audit36_added,,,True,True
+562,Medora SLF,1003240.0,IN,Jackson,event,2023,2023,2023,631-0,Operational,2023-11-01,lmop,,,True,True
+567,Twin Bridges RDF,1007638.0,IN,Hendricks,event,2023,2023,2023,201547-0,Operational,2023-06-30,lmop,,,True,True
+614,Black Hawk County SLF (Area E),1000287.0,IA,Black Hawk,event,2024,2024,2024,684-0,Operational,2024-08-29,lmop,,,True,True
+619,Dubuque Metropolitan SLF,1000473.0,IA,Dubuque,event,2021,2021,2021,689-0,Operational,2021-10-15,lmop,,,True,True
+640,Johnson County LF,1004065.0,KS,Johnson,event,2001,2001,2001,710-0,Shutdown,2001-09-01,lmop,,,True,True
+664,Hamm SLF,1005117.0,KS,Jefferson,event,2017,2017,2017,734-0,Operational,2017-07-31,lmop,,,True,True
+675,Benson Valley LF,1003413.0,KY,Franklin,event,2023,2023,2023,745-0,Operational,2023-08-31,lmop,,,True,True
+679,Rumpke/Montgomery County LF,1005270.0,KY,Montgomery,event,2024,,2024,,,,audit36_added,,,True,True
+681,Outer Loop RDF,1007901.0,KY,Jefferson,event,2018,2018,2018,200966-0,Operational,2018-06-05,lmop,,,True,True
+688,Laurel Ridge Landfill Inc.,1002341.0,KY,Laurel,event,2024,,2024,,,,audit36_added,,,True,True
+700,Woolworth Road Landfill,1002511.0,LA,Caddo,event,1999,1999,1999,770-0,Shutdown,1999-12-01,lmop,,,True,True
+712,Jefferson Davis Parish Landfill,1002476.0,LA,Jefferson Davis,event,2008,2008,2008,782-0,Operational,2008-04-01,lmop,,,True,True
+725,Jefferson Parish SLF,1002587.0,LA,Jefferson,event,2020,2020,2020,180379-2,Operational,2020-01-01,lmop,,,True,True
+820,Pine Bend Landfill,1002059.0,MN,Dakota,event,2022,2022,2022,201433-0,Operational,2022-10-25,lmop,,,True,True
+838,Lemons East Sanitary Landfill / Lemons West Landfill,1007023.0,MO,Stoddard,event_uncertain_cutoff,2024,,2024,,,,audit36_added->targeted_flag_uncertain,unknown cutoff: Nov 2024 ceremony preceded actual ops; dated filing after 2024 cutoff,LEMONS_PSC;LEMONS_NOV,True,True
+890,Eagle Ridge Sanitary Landfill,1005795.0,MO,Pike,event,2023,2023,2023,960-0,Operational,2023-08-10,lmop,,,True,True
+966,Fresh Kills SLF,1002843.0,NY,Richmond,removed_prewindow,,2002,2002,1037-1;1037-2;1037-3;1037-4;1037-5,Shutdown;Shutdown;Shutdown;Shutdown;Shutdown,2002-01-01;2010-01-01;2011-01-01;2014-01-01;2017-01-01,lmop->targeted_removed,prewindow: first high-Btu pipeline LFG 1982 (<1995); 1037-1..5 are expansions/de-expansions,FRESH_NYC;FRESH_EPA,True,False
+981,Seneca Meadows SWMF,1004042.0,NY,Seneca,event,2014,2014,2014,181144-0,Operational,2014-03-03,lmop,,,True,True
+982,New Bath Landfill,1003028.0,NY,Steuben,event,2024,2024,2024,201492-0,Operational,2024-03-15,lmop,,,True,True
+990,Chautauqua County Landfill,1005488.0,NY,Chautauqua,event,2022,2022,2022,201322-0,Operational,2022-06-12,lmop,,,True,True
+1150,Wayne County LF,1005274.0,NC,Wayne,uncertain_no_event,,,,,,,targeted_flag_uncertain,unknown cutoff: existing electricity + prospective RNG conversion; operation date unresolved,WAYNE_NCDEQ,True,False
+1175,Franklin County SLF,1003787.0,OH,Franklin,event,2014,2014,2014,200849-0,Operational,2014-02-01,lmop,,,True,True
+1187,Carbon Limestone LF,1003102.0,OH,Mahoning,event,2023,2023,2023,201544-0,Operational,2023-08-03,lmop,,,True,True
+1195,American LF,1007722.0,OH,Stark,event,2014,2014,2014,1269-1,Operational,2014-01-01,lmop,,,True,True
+1225,Southern OK Regional Disposal LF,1002234.0,OK,Carter,event,2018,2018,2018,1299-0,Operational,2018-07-05,lmop,,,True,True
+1226,Oklahoma City Landfill,1007624.0,OK,Oklahoma,event,2008,2008,2008,1301-0,Operational,2008-05-01,lmop,,,True,True
+1227,East Oak SLF,1007801.0,OK,Oklahoma,event,2022,2022,2022,201436-0,Operational,2022-05-31,lmop,,,True,True
+1254,Alliance SLF,1007645.0,PA,Lackawanna,event,2021,1998,1998,200997-0,Operational,2021-12-30,lmop->targeted_redate,confirmed co-supplier to shared Assai plant (2021-12-30); supersedes 1998 'Other' row,ASSAI_2021;ASSAI_PA,True,True
+1256,"Keystone Sanitary Landfill, Inc.",1006261.0,PA,Lackawanna,event,2021,2021,2021,200997-0,Operational,2021-12-30,lmop->targeted_confirm,confirmed co-supplier/site of shared Assai plant (2021-12-30),ASSAI_2021;ASSAI_PA,True,True
+1274,Wayne Township LF,1007960.0,PA,Clinton,event,2023,2023,2023,200732-0,Operational,2023-04-01,lmop,,,True,True
+1278,Imperial Sanitary Landfill,1003103.0,PA,Allegheny,event,2007,2007,2007,1353-0,Shutdown,2007-09-01,lmop,,,True,True
+1280,Monroeville LF,1007585.0,PA,Allegheny,event,2004,2004,2004,1355-0,Operational,2004-10-29,lmop,,,True,True
+1282,Shade Landfill,1007686.0,PA,Somerset,event,2007,2007,2007,180815-0,Operational,2007-09-01,lmop,,,True,True
+1284,Southern Alleghenies LF,1007718.0,PA,Somerset,event,2007,2007,2007,180815-0,Operational,2007-09-01,lmop,,,True,True
+1285,Valley LF,1007692.0,PA,Westmoreland,event,2004,2004,2004,1360-0,Operational,2004-02-27,lmop,,,True,True
+1286,Laurel Highlands LF,1007586.0,PA,Cambria,event,2006,2006,2006,1357-0,Operational,2006-07-01,lmop,,,True,True
+1288,Greentree Landfill,1001643.0,PA,Elk,event,2007,2007,2007,1363-0,Operational,2007-07-01,lmop,,,True,True
+1293,Bethlehem Landfill,1003937.0,PA,Northampton,event,2024,2024,2024,201006-0,Operational,2024-08-20,lmop,,,True,True
+1298,Seneca Landfill Inc.,1002035.0,PA,Butler,event,2011,2011,2011,180833-0,Operational,2011-02-01,lmop,,,True,True
+1327,North Shelby Landfill,1006303.0,TN,Shelby,event,2014,2014,2014,1403-0,Operational,2014-09-30,lmop,,,True,True
+1330,South Shelby Landfill,1002466.0,TN,Shelby,event,2020,2020,2020,201007-0,Operational,2020-08-18,lmop,,,True,True
+1337,Bradley County LF,1003356.0,TN,Bradley,event,2023,2023,2023,1413-0,Operational,2023-11-30,lmop,,,True,True
+1411,Meadow Branch Landfill,1003269.0,TN,McMinn,event,2011,2011,2011,1487-0,Operational,2011-09-28,lmop,,,True,True
+1452,Carter Valley Landfill,1002649.0,TN,Hawkins,event,2009,2009,2009,1528-0,Shutdown,2009-04-01,lmop,,,True,True
+1456,Skyline LF,1007852.0,TX,Dallas,event,2020,2020,2020,201444-0,Operational,2020-02-01,lmop,,,True,True
+1459,McCommas Bluff Landfill,1006817.0,TX,Dallas,event,2000,2000,2000,1535-0,Shutdown,2000-01-01,lmop,,,True,True
+1461,DFW Recycling & Disposal Facility,1005834.0,TX,Denton,event,2024,2024,2024,201448-0,Operational,2024-05-23,lmop,,,True,True
+1465,McCarty Road LF,1006899.0,TX,Harris,removed_prewindow,,2021,2021,201447-0,Operational,2021-05-31,lmop->targeted_removed,"prewindow: commercial 1986 (<1995); 2021 facility is separately numbered, not a landfill first",MCCARTY_SEC;MCCARTY_2021,True,False
+1467,Arlington LF,1002645.0,TX,Tarrant,event,2019,2019,2019,201244-0,Operational,2019-12-01,lmop,,,True,True
+1469,J.C. Elliott LF,1002081.0,TX,Nueces,event,2024,2024,2024,181057-0,Operational,2024-04-10,lmop,,,True,True
+1472,Pine Hill Landfill,1006227.0,TX,Gregg,event,2017,2017,2017,1549-0,Operational,2017-07-20,lmop,,,True,True
+1479,Atascocita RDF,1007800.0,TX,Harris,event,2018,2018,2018,200969-0,Operational,2018-05-02,lmop,,,True,True
+1485,Turkey Creek Landfill,1006465.0,TX,Johnson,event,2011,2011,2011,1562-0,Operational,2011-09-01,lmop,,,True,True
+1497,Seabreeze Environmental Landfill,1003281.0,TX,Brazoria,event,2018,2018,2018,1574-0,Operational,2018-03-31,lmop,,,True,True
+1503,Greenwood Farms Landfill,1005895.0,TX,Smith,event,2009,2009,2009,1580-0,Operational,2009-04-22,lmop,,,True,True
+1539,Bayview LF,1006417.0,UT,Utah,uncertain_no_event,,,,,,,targeted_flag_uncertain,unknown cutoff: identity/eventual injection supported; early-2024 production forecast not observed,BAY_PINE;BAY_AVISTA,True,False
+1576,Shoosmith SLF,1007088.0,VA,Chesterfield,event,2023,2023,2023,201719-0,Operational,2023-09-30,lmop,,,True,True
+1592,Prince William County Sanitary Landfill,1004707.0,VA,Prince William,event,2024,2024,2024,201704-0,Operational,2024-06-30,lmop,,,True,True
+1597,SPSA Regional LF,1014304.0,VA,Suffolk city,event,2023,2023,2023,201697-0,Operational,2023-08-31,lmop,,,True,True
+1606,Cedar Hills Regional LF,1007822.0,WA,King,event,2010,2010,2010,1685-0,Shutdown,2010-10-01,lmop->targeted_confirm,documented full operation Oct 2010; 2009 first sales are a milestone sensitivity,CEDAR_2010,True,True
+1624,Horn Rapids Landfill,1007090.0,WA,Benton,event,2024,,2024,,,,audit36_added,,,True,True
+1625,Roosevelt Regional MSW Landfill,1003676.0,WA,Klickitat,event,2018,2018,2018,200994-0,Operational,2018-11-01,lmop,,,True,True
+1660,Dane County LF #2-Rodefeld,1006096.0,WI,Dane,event,2019,2019,2019,200991-0,Operational,2019-04-23,lmop,,,True,True
+1667,Glacier Ridge Landfill LLC,1007195.0,WI,Dodge,event,2020,2020,2020,201443-0,Operational,2020-10-31,lmop,,,True,True
+1676,Mallard Ridge Landfill Inc.,1002038.0,WI,Walworth,event,2022,2022,2022,201491-0,Operational,2022-04-30,lmop,,,True,True
+1687,Outagamie County LF,1007075.0,WI,Outagamie,event,2023,2023,2023,201497-0,Operational,2023-03-01,lmop,,,True,True
+1745,Butler County Landfill Inc.,1000191.0,NE,Butler,event,2019,2019,2019,200976-0,Operational,2019-07-26,lmop,,,True,True
+1757,Sarpy County SLF,1001935.0,NE,Sarpy,event,2018,2018,2018,6436-0,Operational,2018-07-12,lmop,,,True,True
+1808,Coastal Plains RDF,1003646.0,TX,Galveston,event,2020,2020,2020,201451-0,Operational,2020-09-30,lmop,,,True,True
+1810,Galveston County LF,1005894.0,TX,Galveston,event,2019,2019,2019,101869-0,Operational,2019-10-02,lmop,,,True,True
+1812,Blue Ridge LF,1005891.0,TX,Fort Bend,event,2018,2018,2018,201010-0,Operational,2018-11-30,lmop,,,True,True
+1820,Tessman Road Landfill,1002471.0,TX,Bexar,event,2021,2021,2021,201450-0,Operational,2021-12-31,lmop,,,True,True
+1839,Turnkey Recycling and Environmental Enterprise (TREE),1007879.0,NH,Strafford,event,2009,2009,2009,180214-0,Operational,2009-07-01,lmop,,,True,True
+1843,South Hills Landfill,1007691.0,PA,Allegheny,event,2008,2008,2008,166422-0,Shutdown,2008-07-01,lmop,,,True,True
+1855,Sauk Trail Hills Landfill,1003687.0,MI,Wayne,event,2013,2013,2013,181068-0,Operational,2013-08-20,lmop,,,True,True
+1864,Brickyard Disposal & Recycling Inc.,1004026.0,IL,Vermilion,event,2024,2024,2024,201466-0,Operational,2024-06-01,lmop,,,True,True
+1879,Arbor Hills Landfill,1008034.0,MI,Washtenaw,event,2023,2023,2023,201535-0,Operational,2023-08-31,lmop,,,True,True
+1885,Riverview Land Preserve,1003601.0,MI,Wayne,event,2024,2024,2024,201009-0,Operational,2024-03-25,lmop,,,True,True
+1890,Granger Wood Street Landfill,1006737.0,MI,Clinton,event,2021,2021,2021,201546-0,Operational,2021-12-31,lmop,,,True,True
+1912,Woodland Meadows Landfill,1003582.0,MI,Wayne,event,2018,2018,2018,181076-0,Operational,2018-04-23,lmop,,,True,True
+1938,Liberty Landfill,1007812.0,IN,White,event,2023,2023,2023,201548-0,Operational,2023-10-03,lmop,,,True,True
+1940,Westside Recycling and Disposal Facility,1007831.0,MI,St. Joseph,event,1999,1999,1999,167016-0,Operational,1999-01-01,lmop,,,True,True
+1941,Stony Hollow Landfill Inc.,1007811.0,OH,Montgomery,event,2003,2003,2003,167062-0,Shutdown,2003-05-01,lmop,,,True,True
+1973,Northeast Mississippi Regional Landfill,1005282.0,MS,Tippah,event,2018,2018,2018,167055-0,Operational,2018-04-19,lmop,,,True,True
+1977,North Sanitary Landfill,1003390.0,OH,Montgomery,event,2003,2003,2003,167062-0,Shutdown,2003-05-01,lmop,,,True,True
+2001,North Country Environmental Services LF,1005255.0,NH,Grafton,event_uncertain_cutoff,2024,,2024,,,,audit36_added->targeted_flag_uncertain,unknown cutoff: operator filing uses future construction; offtake describes future supply,NCES_SEC;NCES_OFFTAKE,True,True
+2048,Temple Recycling & Disposal Facility,1003639.0,TX,Bell,event,2024,,2024,,,,audit36_added,,,True,True
+2052,City of Fort Smith Landfill,1006026.0,AR,Sebastian,event,2006,2006,2006,180840-0,Operational,2006-05-01,lmop,,,True,True
+2141,Billings City Landfill,1000477.0,MT,Yellowstone,event,2010,2010,2010,180208-0,Operational,2010-12-07,lmop,,,True,True
+2199,Upper Piedmont Regional Landfill,1007984.0,NC,Person,event,2023,2023,2023,180282-0,Operational,2023-09-12,lmop,,,True,True
+2200,Foothills Environmental Landfill,1007044.0,NC,Caldwell,event,2023,2023,2023,180283-0,Operational,2023-09-12,lmop,,,True,True
+2207,City of Charleston Landfill,1002359.0,WV,Kanawha,event,2018,2018,2018,200981-0,Operational,2018-02-01,lmop,,,True,True
+2245,Noble Road LF,1004850.0,OH,Richland,event,2022,2022,2022,180333-0,Operational,2022-03-03,lmop,,,True,True
+2268,Oak Grove Landfill,1002477.0,GA,Barrow,event,2009,2009,2009,180358-0,Shutdown,2009-01-31,lmop,,,True,True
+2282,Eco-Vista Landfill,1003406.0,AR,Washington,event,2023,2023,2023,201449-0,Operational,2023-05-24,lmop,,,True,True
+2289,River Birch Landfill,1005717.0,LA,Jefferson,event,2010,2010,2010,180379-0,Operational,2010-06-01,lmop,,,True,True
+2315,Prairie View RDF,1006176.0,IL,Will,event,2022,2022,2022,200974-0,Operational,2022-12-02,lmop,,,True,True
+2323,Winnebago Landfill,1006358.0,IL,Winnebago,event,2024,,2024,,,,audit36_added,,,True,True
+2336,"Sampson County Disposal, LLC",1004118.0,NC,Sampson,event,2024,,2024,,,,audit36_added,,,True,True
+2384,Southeast OKC Landfill,1005729.0,OK,Oklahoma,event,2018,2018,2018,200978-0,Operational,2018-09-24,lmop,,,True,True
+2429,Lorain County Landfill I & II,1007969.0,OH,Lorain,event,2024,,2024,,,,audit36_added,,,True,True
+11180,Twin Chimneys Landfill,1004041.0,SC,Greenville,event,2023,2023,2023,180966-0,Operational,2023-03-31,lmop,,,True,True
+11240,Juniper Ridge Landfill,1005253.0,ME,Penobscot,event,2024,2024,2024,180985-0,Operational,2024-06-09,lmop,,,True,True
+11320,Plumb Thicket Landfill,1006796.0,KS,Harper,event,2022,2022,2022,180989-0,Operational,2022-01-01,lmop,,,True,True
+11460,Boyd County Sanitary Landfill,1007094.0,KY,Boyd,event,2021,2021,2021,181005-0,Operational,2021-05-13,lmop,,,True,True
+11761,C.M. Hinton Jr Regional Landfill,1004491.0,TX,Dallas,event,2021,2021,2021,181043-0,Operational,2021-08-11,lmop,,,True,True
+11781,Loess Hills Regional SLF,1003990.0,IA,Mills,event,2023,2023,2023,181045-0,Operational,2023-09-29,lmop,,,True,True
+11822,City of Edinburg Landfill,1007276.0,TX,Hidalgo,event,2016,2016,2016,181051-0,Operational,2016-05-03,lmop,,,True,True
+11862,Cefe Valenzuela Landfill,1002085.0,TX,Nueces,event,2024,2024,2024,181057-0,Operational,2024-04-10,lmop,,,True,True
+12041,Timberlane Landfill,1006064.0,LA,Allen,event,2019,2019,2019,181087-0,Operational,2019-04-30,lmop,,,True,True
+12061,Apex Sanitary Landfill,1006777.0,OH,Jefferson,event,2018,2018,2018,181088-0,Operational,2018-08-14,lmop,,,True,True
+12101,Fort Bend Regional Landfill,1002321.0,TX,Fort Bend,event,2013,2013,2013,181097-0,Operational,2013-06-02,lmop,,,True,True
+12143,Richfield Landfill,1003592.0,MI,Genesee,event,2006,2006,2006,181114-0,Operational,2006-11-01,lmop,,,False,False
+12144,Quad Cities Landfill Phase IV,1004059.0,IL,Rock Island,event_uncertain_cutoff,2024,,2024,,,,audit36_added->targeted_flag_uncertain,unknown cutoff: current injection documented; forecast/undated operation straddle cutoff,QUAD_PINE;QUAD_AVISTA,True,True
+12201,NTMWD 121 Regional Disposal Facility,1004377.0,TX,Collin,event,2017,2017,2017,181123-0,Operational,2017-12-15,lmop,,,True,True
+20181,Douglas County Landfill,1000522.0,NE,Douglas,event,2015,2015,2015,200317-0,Operational,2015-12-31,lmop,,,True,True
+20763,Twin Oaks Landfill,1011032.0,TX,Grimes,event,2022,2022,2022,200990-0,Operational,2022-12-28,lmop,,,True,True

@@ -1,0 +1,14 @@
+{
+  "main": "run_007",
+  "temporal": "run_007",
+  "legacy_matching_points_by_panel": [
+    0,
+    0,
+    0
+  ],
+  "repaired_points_by_panel": [
+    9,
+    9,
+    9
+  ]
+}

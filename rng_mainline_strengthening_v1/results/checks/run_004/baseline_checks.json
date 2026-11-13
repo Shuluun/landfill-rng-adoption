@@ -1,0 +1,125 @@
+{
+  "replayed_t1_t2_models": 8,
+  "replayed_spatial_models": 2,
+  "facility_trace_exact_match": true,
+  "legacy_corrected": {
+    "coef_log_dist": -0.16870029361524325,
+    "se_standard": 0.0652969032129651,
+    "p_standard": 0.009777852795151087,
+    "se_landfill_cluster": 0.06995200493537433,
+    "p_landfill_cluster": 0.01588018123606938,
+    "n_landfills": 1502,
+    "n_events": 121,
+    "n_person_years": 43593,
+    "dropped_states": [
+      "AL",
+      "AZ",
+      "CO",
+      "CT",
+      "DE",
+      "ID",
+      "MA",
+      "MD",
+      "ND",
+      "NJ",
+      "NM",
+      "NV",
+      "OR",
+      "RI",
+      "SD",
+      "UT",
+      "VT",
+      "WY"
+    ],
+    "conley_km": {
+      "25": {
+        "se": 0.07242736742247491,
+        "p": 0.019846667607672952,
+        "n_landfill_pairs_weighted": 3450,
+        "w_sum": 2234.4148904063786
+      },
+      "50": {
+        "se": 0.07420680301754438,
+        "p": 0.023003264541042512,
+        "n_landfill_pairs_weighted": 8456,
+        "w_sum": 3970.4665781130807
+      },
+      "100": {
+        "se": 0.0766829114152129,
+        "p": 0.02780884870369693,
+        "n_landfill_pairs_weighted": 24014,
+        "w_sum": 9822.32848040506
+      },
+      "200": {
+        "se": 0.07272467465304158,
+        "p": 0.02035646736486596,
+        "n_landfill_pairs_weighted": 73082,
+        "w_sum": 28345.54289796037
+      },
+      "400": {
+        "se": 0.06902705833790707,
+        "p": 0.014526498021308898,
+        "n_landfill_pairs_weighted": 225592,
+        "w_sum": 86037.42261879658
+      }
+    }
+  },
+  "max_absolute_numeric_difference": 5.863365348801608e-14,
+  "diagnostic": {
+    "converged": true,
+    "iterations": 223,
+    "max_abs_gradient_ridge": 3.946519247480109e-11,
+    "info_matrix_cond_number": 2643339737.969808,
+    "max_abs_beta": 38.18572966396584,
+    "n_params": 57,
+    "ridge": 1e-06,
+    "unpenalized_log_dist_coef": null,
+    "unpenalized_vs_ridge_log_dist_diff": null,
+    "unpenalized_singular": true
+  },
+  "saved_diagnostic_iterations": 25,
+  "comparisons": {
+    "common_event_counts": {
+      "registered_broad": 134,
+      "registered": 106,
+      "status_only": 114,
+      "date_only": 106,
+      "reconciled": 114
+    },
+    "verified_prewindow_exclusions": 2,
+    "four_old_2024_events_withheld": true,
+    "withheld_breakdown": {
+      "confirmed_post_cutoff": 3,
+      "unknown_cutoff": 1
+    },
+    "fixed_frame_id_and_risk_accounting": true
+  },
+  "temporal": {
+    "fixed_end_dates_valid": true,
+    "paired_layers_same_support": true,
+    "model_rows": 24,
+    "distance_brute_force_checks": 24,
+    "layer_agreement_baseline_wip_screened": {
+      "n_landfills": 1831,
+      "abs_difference_median_km": 1.5622200422171773e-08,
+      "n_abs_difference_le_1m": 1813,
+      "n_abs_difference_gt_1km": 15,
+      "log_distance_correlation": 0.9889560707780816
+    }
+  },
+  "figures": {
+    "main": "run_007",
+    "temporal": "run_007",
+    "legacy_matching_points_by_panel": [
+      0,
+      0,
+      0
+    ],
+    "repaired_points_by_panel": [
+      9,
+      9,
+      9
+    ]
+  },
+  "numeric_fixture_checks": 2
+}

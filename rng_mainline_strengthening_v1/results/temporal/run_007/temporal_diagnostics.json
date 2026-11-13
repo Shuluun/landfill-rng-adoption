@@ -1,0 +1,78 @@
+{
+  "baseline_end": "2020-08-31",
+  "common_followup_end": "2024-08-31",
+  "snapshots": {
+    "2020-08": {
+      "member": "2020Aug_lmopdata.xlsx",
+      "member_sha256": "950171670000d72481978448a6b2ec48b9df715774a9897bbf4a81e7015bf168",
+      "rows": 3389,
+      "n_landfills": 2629
+    },
+    "2021-09": {
+      "member": "2021Sep_lmopdata.xlsx",
+      "member_sha256": "5f94707579530a4e707c1035cf5e3eb2f94eb2b3f6c3d6a6f68d8d801f5ab310",
+      "rows": 3405,
+      "n_landfills": 2632
+    },
+    "2022-08": {
+      "member": "2022Aug_lmopdata.xlsx",
+      "member_sha256": "ad6077a476a1b7d110ff3e14b5c821cb12d7bfd9e3d8f06920c660341e26c9c5",
+      "rows": 3448,
+      "n_landfills": 2635
+    },
+    "2023-07": {
+      "member": "2023Jul_lmopdata.xlsx",
+      "member_sha256": "28d0cf85e83c9acf9d8b454fbde6b37316f2f058e6ea55691d894bf4a4a95dd0",
+      "rows": 3455,
+      "n_landfills": 2636
+    },
+    "2024-09": {
+      "member": "lmopdata.xlsx",
+      "rows": 3399,
+      "n_landfills": 2641
+    }
+  },
+  "geometries": {
+    "eia_member": "NaturalGas_Pipelines_US_202001.shp",
+    "eia_crs": "GEOGCS[\"GCS_WGS_1984\",DATUM[\"D_WGS_1984\",SPHEROID[\"WGS_1984\",6378137.0,298.257223563]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]",
+    "eia": {
+      "arc_segments": 161703,
+      "exhaustive_checks": 12,
+      "max_absolute_difference_km": 0.0
+    },
+    "hifld": {
+      "arc_segments": 161180,
+      "exhaustive_checks": 12,
+      "max_absolute_difference_km": 0.0
+    }
+  },
+  "baseline_sites": 2629,
+  "last_snapshot_linked": 2622,
+  "last_snapshot_missing": 7,
+  "baseline_prior_status": 64,
+  "preexisting_in_later_archive": 3,
+  "registry_endpoint_counts": {
+    "seen_at_endpoint_no_qualifying_registry_event": 2511,
+    "excluded_baseline_or_preexisting": 67,
+    "observed_operated_registry_event": 44,
+    "lost_identity_or_followup": 7
+  },
+  "screened_endpoint_counts": {
+    "seen_at_endpoint_no_qualifying_registry_event": 2495,
+    "excluded_baseline_or_preexisting": 67,
+    "observed_operated_registry_event": 45,
+    "external_cutoff_unresolved": 15,
+    "lost_identity_or_followup": 7
+  },
+  "external_case_in_window_in_registry_risk": 9,
+  "energy_labels_baseline": {
+    "unknown_project_use": 1849,
+    "electricity": 362,
+    "previous_use_stopped_in_registry": 246,
+    "no_electricity_or_direct_use_registered": 64,
+    "direct_use": 60,
+    "electricity_and_direct": 33,
+    "uncertain_stage_or_date": 15
+  },
+  "actual_negative_truth_validated": false
+}

@@ -1,0 +1,110 @@
+{
+  "started_utc": "2026-11-10T19:50:38.702494+00:00",
+  "duration_seconds": 14.699,
+  "command": "C:\\Users\\<user>\\AppData\\Local\\Programs\\Python\\Python313\\python.exe C:\\Users\\<user>\\Desktop\\Alice_Methane\\scripts\\driver_logit_diagnostics_20261110.py --output C:\\Users\\<user>\\Desktop\\Alice_Methane\\rng_mainline_strengthening_v1\\results\\legacy\\run_001\\diagnostics",
+  "python": "3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "numpy": "2.4.4",
+    "pandas": "3.0.2"
+  },
+  "backfill_script_sha256": "ef2c721f2d83b1a0ae92530b3dbb8e472a44fa5e20261ab4b1b389ec98efb7b0",
+  "script_sha256": "b8e5a7253fb6f5fe3294c197448bdacee89f3d5d8200fae367ea322bfecf4ef0",
+  "workspace_git_state": "not_a_git_repository",
+  "random_seed": null,
+  "model_run": true,
+  "synthetic_data_used": false,
+  "model": "ev_opshut_corr, T2 state-FE, ridge-penalized IRLS (ridge=1e-6)",
+  "result": {
+    "coef_log_dist": -0.16870029361524325,
+    "se": 0.0652969032129651,
+    "p": 0.009777852795151087,
+    "n_py": 43593,
+    "n_events": 121,
+    "n_landfills": 1502,
+    "dropped_states": [
+      "AL",
+      "AZ",
+      "CO",
+      "CT",
+      "DE",
+      "ID",
+      "MA",
+      "MD",
+      "ND",
+      "NJ",
+      "NM",
+      "NV",
+      "OR",
+      "RI",
+      "SD",
+      "UT",
+      "VT",
+      "WY"
+    ],
+    "n_dropped_states": 18,
+    "n_event_year_dummies": 25,
+    "top_abs_beta": [
+      {
+        "name": "intercept",
+        "beta": -38.18572966396584,
+        "se": 54.37267134329644,
+        "abs_beta": 38.18572966396584
+      },
+      {
+        "name": "yr_2024",
+        "beta": 13.312530655879224,
+        "se": 54.3411131360133,
+        "abs_beta": 13.312530655879224
+      },
+      {
+        "name": "yr_2023",
+        "beta": 13.097921925515488,
+        "se": 54.341174949771826,
+        "abs_beta": 13.097921925515488
+      },
+      {
+        "name": "yr_2018",
+        "beta": 12.374781150542207,
+        "se": 54.341446338107254,
+        "abs_beta": 12.374781150542207
+      },
+      {
+        "name": "yr_2022",
+        "beta": 12.158191787447599,
+        "se": 54.34183184522259,
+        "abs_beta": 12.158191787447599
+      },
+      {
+        "name": "yr_2021",
+        "beta": 11.94798502871115,
+        "se": 54.341997364233336,
+        "abs_beta": 11.94798502871115
+      },
+      {
+        "name": "yr_2020",
+        "beta": 11.5629446623625,
+        "se": 54.34251843005276,
+        "abs_beta": 11.5629446623625
+      },
+      {
+        "name": "yr_2019",
+        "beta": 11.543390862228188,
+        "se": 54.34251723903102,
+        "abs_beta": 11.543390862228188
+      }
+    ],
+    "diagnostics": {
+      "converged": true,
+      "iterations": 223,
+      "max_abs_gradient_ridge": 3.946519247480109e-11,
+      "info_matrix_cond_number": 2643339737.969808,
+      "max_abs_beta": 38.18572966396584,
+      "n_params": 57,
+      "ridge": 1e-06,
+      "unpenalized_log_dist_coef": null,
+      "unpenalized_vs_ridge_log_dist_diff": null,
+      "unpenalized_singular": true
+    }
+  }
+}

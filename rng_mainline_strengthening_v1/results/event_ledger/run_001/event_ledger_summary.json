@@ -1,0 +1,23 @@
+{
+  "event_map_counts": {
+    "ev_opshut_orig_map": 109,
+    "ev_opshut_corr_map_after36": 122,
+    "ev_opshut_final_map_after11": 120,
+    "final_events_in_map": 120,
+    "final_event_uncertain_cutoff": 3,
+    "final_uncertain_no_event": 2,
+    "final_removed_prewindow": 2,
+    "counted_in_fitted_driver_model": 119
+  },
+  "redated": {
+    "1254": {
+      "from": 1998,
+      "to": 2021
+    }
+  },
+  "removed": {
+    "966": 2002,
+    "1465": 2021
+  },
+  "note": "Map size != fitted count: the driver model counts only analyzable CONUS cohort sites with entry <= event year."
+}

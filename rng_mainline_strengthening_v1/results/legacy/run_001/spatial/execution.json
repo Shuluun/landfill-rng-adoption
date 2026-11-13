@@ -1,0 +1,14 @@
+{
+  "command": [
+    "C:\\Users\\<user>\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+    "rng_mainline_strengthening_v1/src/reproduce_legacy.py",
+    "spatial"
+  ],
+  "started_utc": "2026-11-10T19:50:23.044831+00:00",
+  "wall_seconds": 11.719510199996876,
+  "original_script": "scripts/spatial_conley_hac_20261110.py",
+  "original_sha256": "83b5474470f8e5b2138d2791308c7474f41d94f16fc4181b7ba4840341240734",
+  "interpreter": "C:\\Users\\<user>\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+  "only_source_change": "Route the output safety guard to the isolated repository.",
+  "output": "results/legacy/run_001/spatial"
+}

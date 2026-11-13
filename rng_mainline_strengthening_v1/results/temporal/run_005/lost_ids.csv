@@ -1,0 +1,8 @@
+﻿Landfill ID,landfill_name,state,ghgrp_id,archive_presence,same_ghgrp_or_name_candidate_ids,candidate_names,identity_resolution
+80,Brand Park LF,CA,,2020-08;2021-09;2022-08;2023-07,,,unresolved_no_alias_adopted
+1363,Earth Complex,TN,,2020-08;2021-09;2022-08;2023-07,,,unresolved_no_alias_adopted
+1504,Ellis County LF,TX,,2020-08;2021-09;2022-08,,,unresolved_no_alias_adopted
+1510,Laidlaw/Wilmer LF,TX,,2020-08;2021-09;2022-08;2023-07,,,unresolved_no_alias_adopted
+2270,Honey-Go-Run Reclamation,MD,,2020-08;2021-09;2022-08;2023-07,,,unresolved_no_alias_adopted
+21054,Manchester Dunbarton Road Landfill,NH,,2020-08;2021-09;2022-08,1853,Manchester Dunbarton Road Landfill,plausible_duplicate_same_name_city_and_street_alias_not_adopted
+21131,Sedalia Recycling Center & Depository,CO,1011022.0,2020-08;2021-09;2022-08,,,unresolved_no_alias_adopted

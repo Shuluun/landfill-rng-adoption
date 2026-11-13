@@ -1,0 +1,611 @@
+{
+  "started_utc": "2026-11-10T19:50:53.197773+00:00",
+  "duration_seconds": 29.195,
+  "command": "C:\\Users\\<user>\\AppData\\Local\\Programs\\Python\\Python313\\python.exe C:\\Users\\<user>\\Desktop\\Alice_Methane\\scripts\\driver_consequence_backfill_20261109.py --output C:\\Users\\<user>\\Desktop\\Alice_Methane\\rng_mainline_strengthening_v1\\results\\legacy\\run_001\\backfill",
+  "python": "3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "numpy": "2.4.4",
+    "pandas": "3.0.2"
+  },
+  "lmop_sha256": "a5c8bea26e7b5f6ecef247b762bde89b999915504814825a1eac7a1cd9f4ddd3",
+  "landfill_csv": "C:\\Users\\<user>\\Desktop\\Alice_Methane\\outputs\\2026-11-04_rng_denominator_gate\\run_001\\landfill_level.csv",
+  "dist_csv": "C:\\Users\\<user>\\Desktop\\Alice_Methane\\outputs\\2026-11-06_rng_distance_geodesic_verify\\run_001\\nearest_pipeline_distance_verified.csv",
+  "script_sha256": "ef2c721f2d83b1a0ae92530b3dbb8e472a44fa5e20261ab4b1b389ec98efb7b0",
+  "workspace_git_state": "not_a_git_repository",
+  "random_seed": null,
+  "model_run": true,
+  "synthetic_data_used": false,
+  "cohort_n_landfills": 1821,
+  "correction_counts": {
+    "n_false_adoption": 11,
+    "n_uncertain": 3,
+    "n_real_late_adoption": 22,
+    "n_real_added_as_events_le2024": 13,
+    "real_added_events": [
+      184,
+      554,
+      559,
+      679,
+      688,
+      838,
+      1624,
+      2001,
+      2048,
+      2323,
+      2336,
+      2429,
+      12144
+    ],
+    "real_late_adopters_in_cohort": [
+      9,
+      20,
+      184,
+      554,
+      559,
+      679,
+      688,
+      829,
+      838,
+      1415,
+      1624,
+      2001,
+      2048,
+      2068,
+      2165,
+      2323,
+      2336,
+      2429,
+      10520,
+      10620,
+      12144,
+      21203
+    ],
+    "real_late_adopters_gt2024_censored": [
+      9,
+      20,
+      829,
+      1415,
+      2068,
+      2165,
+      10520,
+      10620,
+      21203
+    ]
+  },
+  "results": {
+    "ev_opshut_orig": {
+      "T1_yearFE_log_dist": {
+        "coef": -0.21976111836624895,
+        "se": 0.06104917465556984,
+        "p": 0.0003185362728861385,
+        "n_py": 52906,
+        "n_events": 108,
+        "se_clustered": 0.06182235357242126,
+        "p_clustered": 0.00037838270038825783
+      },
+      "T2_stateFE_log_dist": {
+        "coef": -0.17149685153811994,
+        "se": 0.06784357335080443,
+        "p": 0.011477072106176767,
+        "n_py": 38107,
+        "n_events": 108,
+        "dropped_states": [
+          "AL",
+          "AZ",
+          "CA",
+          "CO",
+          "CT",
+          "DE",
+          "ID",
+          "MA",
+          "MD",
+          "ND",
+          "NJ",
+          "NM",
+          "NV",
+          "OR",
+          "RI",
+          "SD",
+          "UT",
+          "VT",
+          "WY"
+        ],
+        "se_clustered": 0.07221016125887311,
+        "p_clustered": 0.017550452375588943
+      },
+      "n_events": 108,
+      "n_person_years": 52906
+    },
+    "ev_opshut_corr": {
+      "T1_yearFE_log_dist": {
+        "coef": -0.19372856794983434,
+        "se": 0.05872321635233744,
+        "p": 0.0009702592524982734,
+        "n_py": 52905,
+        "n_events": 121,
+        "se_clustered": 0.0618762931835207,
+        "p_clustered": 0.001742707083655759
+      },
+      "T2_stateFE_log_dist": {
+        "coef": -0.16870029361524325,
+        "se": 0.0652969032129651,
+        "p": 0.009777852795151087,
+        "n_py": 43593,
+        "n_events": 121,
+        "dropped_states": [
+          "AL",
+          "AZ",
+          "CO",
+          "CT",
+          "DE",
+          "ID",
+          "MA",
+          "MD",
+          "ND",
+          "NJ",
+          "NM",
+          "NV",
+          "OR",
+          "RI",
+          "SD",
+          "UT",
+          "VT",
+          "WY"
+        ],
+        "se_clustered": 0.06995200493537433,
+        "p_clustered": 0.01588018123606938
+      },
+      "n_events": 121,
+      "n_person_years": 52905
+    },
+    "ev_all_orig": {
+      "T1_yearFE_log_dist": {
+        "coef": -0.17229783790485909,
+        "se": 0.05470069032305911,
+        "p": 0.0016336587607244102,
+        "n_py": 52906,
+        "n_events": 144,
+        "se_clustered": 0.060217380631027655,
+        "p_clustered": 0.004219552026781148
+      },
+      "T2_stateFE_log_dist": {
+        "coef": -0.1836869188416297,
+        "se": 0.06000955420577915,
+        "p": 0.0022062766076906826,
+        "n_py": 47076,
+        "n_events": 144,
+        "dropped_states": [
+          "AZ",
+          "CO",
+          "CT",
+          "DE",
+          "MA",
+          "MD",
+          "ND",
+          "NM",
+          "NV",
+          "RI",
+          "SD",
+          "VT",
+          "WY"
+        ],
+        "se_clustered": 0.06408975358509374,
+        "p_clustered": 0.004155777811023942
+      },
+      "n_events": 144,
+      "n_person_years": 52906
+    },
+    "ev_all_corr": {
+      "T1_yearFE_log_dist": {
+        "coef": -0.19372856794983434,
+        "se": 0.05872321635233744,
+        "p": 0.0009702592524982734,
+        "n_py": 52905,
+        "n_events": 121,
+        "se_clustered": 0.0618762931835207,
+        "p_clustered": 0.001742707083655759
+      },
+      "T2_stateFE_log_dist": {
+        "coef": -0.16870029361524325,
+        "se": 0.0652969032129651,
+        "p": 0.009777852795151087,
+        "n_py": 43593,
+        "n_events": 121,
+        "dropped_states": [
+          "AL",
+          "AZ",
+          "CO",
+          "CT",
+          "DE",
+          "ID",
+          "MA",
+          "MD",
+          "ND",
+          "NJ",
+          "NM",
+          "NV",
+          "OR",
+          "RI",
+          "SD",
+          "UT",
+          "VT",
+          "WY"
+        ],
+        "se_clustered": 0.06995200493537433,
+        "p_clustered": 0.01588018123606938
+      },
+      "n_events": 121,
+      "n_person_years": 52905
+    }
+  },
+  "consequence_check": {
+    "ever_operational_rngpi_treated_n": 109,
+    "never_operational_36_in_ever_operational": [],
+    "n_overlap": 0,
+    "consequence_treated_unchanged": true,
+    "note": "DiD treated set = ever-operational RNG-PI; all 36 are Planned/Construction in LMOP so none enter treated, and the audit only re-labels within this already-excluded group."
+  },
+  "facility_trace": [
+    {
+      "Landfill ID": 9,
+      "class": "real",
+      "corrected_first_gas_year": 2025,
+      "in_driver_cohort": true,
+      "ev_opshut_orig": null,
+      "ev_opshut_corr": null,
+      "ev_all_orig": 2024,
+      "ev_all_corr": null
+    },
+    {
+      "Landfill ID": 20,
+      "class": "real",
+      "corrected_first_gas_year": 2025,
+      "in_driver_cohort": true,
+      "ev_opshut_orig": null,
+      "ev_opshut_corr": null,
+      "ev_all_orig": 2024,
+      "ev_all_corr": null
+    },
+    {
+      "Landfill ID": 184,
+      "class": "real",
+      "corrected_first_gas_year": 2024,
+      "in_driver_cohort": true,
+      "ev_opshut_orig": null,
+      "ev_opshut_corr": 2024,
+      "ev_all_orig": 2024,
+      "ev_all_corr": 2024
+    },
+    {
+      "Landfill ID": 460,
+      "class": "false",
+      "corrected_first_gas_year": null,
+      "in_driver_cohort": true,
+      "ev_opshut_orig": null,
+      "ev_opshut_corr": null,
+      "ev_all_orig": 2024,
+      "ev_all_corr": null
+    },
+    {
+      "Landfill ID": 495,
+      "class": "false",
+      "corrected_first_gas_year": null,
+      "in_driver_cohort": true,
+      "ev_opshut_orig": null,
+      "ev_opshut_corr": null,
+      "ev_all_orig": 2024,
+      "ev_all_corr": null
+    },
+    {
+      "Landfill ID": 554,
+      "class": "real",
+      "corrected_first_gas_year": 2024,
+      "in_driver_cohort": true,
+      "ev_opshut_orig": null,
+      "ev_opshut_corr": 2024,
+      "ev_all_orig": 2024,
+      "ev_all_corr": 2024
+    },
+    {
+      "Landfill ID": 559,
+      "class": "real",
+      "corrected_first_gas_year": 2023,
+      "in_driver_cohort": true,
+      "ev_opshut_orig": null,
+      "ev_opshut_corr": 2023,
+      "ev_all_orig": 2024,
+      "ev_all_corr": 2023
+    },
+    {
+      "Landfill ID": 679,
+      "class": "real",
+      "corrected_first_gas_year": 2024,
+      "in_driver_cohort": true,
+      "ev_opshut_orig": null,
+      "ev_opshut_corr": 2024,
+      "ev_all_orig": 2024,
+      "ev_all_corr": 2024
+    },
+    {
+      "Landfill ID": 688,
+      "class": "real",
+      "corrected_first_gas_year": 2024,
+      "in_driver_cohort": true,
+      "ev_opshut_orig": null,
+      "ev_opshut_corr": 2024,
+      "ev_all_orig": 2024,
+      "ev_all_corr": 2024
+    },
+    {
+      "Landfill ID": 705,
+      "class": "false",
+      "corrected_first_gas_year": null,
+      "in_driver_cohort": true,
+      "ev_opshut_orig": null,
+      "ev_opshut_corr": null,
+      "ev_all_orig": 2024,
+      "ev_all_corr": null
+    },
+    {
+      "Landfill ID": 816,
+      "class": "false",
+      "corrected_first_gas_year": null,
+      "in_driver_cohort": true,
+      "ev_opshut_orig": null,
+      "ev_opshut_corr": null,
+      "ev_all_orig": 2024,
+      "ev_all_corr": null
+    },
+    {
+      "Landfill ID": 829,
+      "class": "real",
+      "corrected_first_gas_year": 2025,
+      "in_driver_cohort": true,
+      "ev_opshut_orig": null,
+      "ev_opshut_corr": null,
+      "ev_all_orig": 2024,
+      "ev_all_corr": null
+    },
+    {
+      "Landfill ID": 838,
+      "class": "real",
+      "corrected_first_gas_year": 2024,
+      "in_driver_cohort": true,
+      "ev_opshut_orig": null,
+      "ev_opshut_corr": 2024,
+      "ev_all_orig": 2024,
+      "ev_all_corr": 2024
+    },
+    {
+      "Landfill ID": 945,
+      "class": "false",
+      "corrected_first_gas_year": null,
+      "in_driver_cohort": true,
+      "ev_opshut_orig": null,
+      "ev_opshut_corr": null,
+      "ev_all_orig": 2024,
+      "ev_all_corr": null
+    },
+    {
+      "Landfill ID": 1080,
+      "class": "uncertain",
+      "corrected_first_gas_year": null,
+      "in_driver_cohort": true,
+      "ev_opshut_orig": null,
+      "ev_opshut_corr": null,
+      "ev_all_orig": 2024,
+      "ev_all_corr": null
+    },
+    {
+      "Landfill ID": 1150,
+      "class": "uncertain",
+      "corrected_first_gas_year": null,
+      "in_driver_cohort": true,
+      "ev_opshut_orig": null,
+      "ev_opshut_corr": null,
+      "ev_all_orig": 2024,
+      "ev_all_corr": null
+    },
+    {
+      "Landfill ID": 1223,
+      "class": "false",
+      "corrected_first_gas_year": null,
+      "in_driver_cohort": true,
+      "ev_opshut_orig": null,
+      "ev_opshut_corr": null,
+      "ev_all_orig": 2024,
+      "ev_all_corr": null
+    },
+    {
+      "Landfill ID": 1238,
+      "class": "false",
+      "corrected_first_gas_year": null,
+      "in_driver_cohort": true,
+      "ev_opshut_orig": null,
+      "ev_opshut_corr": null,
+      "ev_all_orig": 2024,
+      "ev_all_corr": null
+    },
+    {
+      "Landfill ID": 1415,
+      "class": "real",
+      "corrected_first_gas_year": 2025,
+      "in_driver_cohort": true,
+      "ev_opshut_orig": null,
+      "ev_opshut_corr": null,
+      "ev_all_orig": 2024,
+      "ev_all_corr": null
+    },
+    {
+      "Landfill ID": 1539,
+      "class": "uncertain",
+      "corrected_first_gas_year": null,
+      "in_driver_cohort": true,
+      "ev_opshut_orig": null,
+      "ev_opshut_corr": null,
+      "ev_all_orig": 2024,
+      "ev_all_corr": null
+    },
+    {
+      "Landfill ID": 1624,
+      "class": "real",
+      "corrected_first_gas_year": 2024,
+      "in_driver_cohort": true,
+      "ev_opshut_orig": null,
+      "ev_opshut_corr": 2024,
+      "ev_all_orig": 2024,
+      "ev_all_corr": 2024
+    },
+    {
+      "Landfill ID": 1819,
+      "class": "false",
+      "corrected_first_gas_year": null,
+      "in_driver_cohort": true,
+      "ev_opshut_orig": null,
+      "ev_opshut_corr": null,
+      "ev_all_orig": 2024,
+      "ev_all_corr": null
+    },
+    {
+      "Landfill ID": 2001,
+      "class": "real",
+      "corrected_first_gas_year": 2024,
+      "in_driver_cohort": true,
+      "ev_opshut_orig": null,
+      "ev_opshut_corr": 2024,
+      "ev_all_orig": 2024,
+      "ev_all_corr": 2024
+    },
+    {
+      "Landfill ID": 2048,
+      "class": "real",
+      "corrected_first_gas_year": 2024,
+      "in_driver_cohort": true,
+      "ev_opshut_orig": null,
+      "ev_opshut_corr": 2024,
+      "ev_all_orig": 2024,
+      "ev_all_corr": 2024
+    },
+    {
+      "Landfill ID": 2068,
+      "class": "real",
+      "corrected_first_gas_year": 2025,
+      "in_driver_cohort": true,
+      "ev_opshut_orig": null,
+      "ev_opshut_corr": null,
+      "ev_all_orig": 2024,
+      "ev_all_corr": null
+    },
+    {
+      "Landfill ID": 2165,
+      "class": "real",
+      "corrected_first_gas_year": 2025,
+      "in_driver_cohort": true,
+      "ev_opshut_orig": null,
+      "ev_opshut_corr": null,
+      "ev_all_orig": 2024,
+      "ev_all_corr": null
+    },
+    {
+      "Landfill ID": 2323,
+      "class": "real",
+      "corrected_first_gas_year": 2024,
+      "in_driver_cohort": true,
+      "ev_opshut_orig": null,
+      "ev_opshut_corr": 2024,
+      "ev_all_orig": 2024,
+      "ev_all_corr": 2024
+    },
+    {
+      "Landfill ID": 2336,
+      "class": "real",
+      "corrected_first_gas_year": 2024,
+      "in_driver_cohort": true,
+      "ev_opshut_orig": null,
+      "ev_opshut_corr": 2024,
+      "ev_all_orig": 2024,
+      "ev_all_corr": 2024
+    },
+    {
+      "Landfill ID": 2424,
+      "class": "false",
+      "corrected_first_gas_year": null,
+      "in_driver_cohort": true,
+      "ev_opshut_orig": null,
+      "ev_opshut_corr": null,
+      "ev_all_orig": 2024,
+      "ev_all_corr": null
+    },
+    {
+      "Landfill ID": 2429,
+      "class": "real",
+      "corrected_first_gas_year": 2024,
+      "in_driver_cohort": true,
+      "ev_opshut_orig": null,
+      "ev_opshut_corr": 2024,
+      "ev_all_orig": 2024,
+      "ev_all_corr": 2024
+    },
+    {
+      "Landfill ID": 10407,
+      "class": "false",
+      "corrected_first_gas_year": null,
+      "in_driver_cohort": true,
+      "ev_opshut_orig": null,
+      "ev_opshut_corr": null,
+      "ev_all_orig": 2024,
+      "ev_all_corr": null
+    },
+    {
+      "Landfill ID": 10520,
+      "class": "real",
+      "corrected_first_gas_year": 2026,
+      "in_driver_cohort": true,
+      "ev_opshut_orig": null,
+      "ev_opshut_corr": null,
+      "ev_all_orig": 2024,
+      "ev_all_corr": null
+    },
+    {
+      "Landfill ID": 10620,
+      "class": "real",
+      "corrected_first_gas_year": 2025,
+      "in_driver_cohort": true,
+      "ev_opshut_orig": null,
+      "ev_opshut_corr": null,
+      "ev_all_orig": 2024,
+      "ev_all_corr": null
+    },
+    {
+      "Landfill ID": 11120,
+      "class": "false",
+      "corrected_first_gas_year": null,
+      "in_driver_cohort": true,
+      "ev_opshut_orig": null,
+      "ev_opshut_corr": null,
+      "ev_all_orig": 2024,
+      "ev_all_corr": null
+    },
+    {
+      "Landfill ID": 12144,
+      "class": "real",
+      "corrected_first_gas_year": 2024,
+      "in_driver_cohort": true,
+      "ev_opshut_orig": null,
+      "ev_opshut_corr": 2024,
+      "ev_all_orig": 2024,
+      "ev_all_corr": 2024
+    },
+    {
+      "Landfill ID": 21203,
+      "class": "real",
+      "corrected_first_gas_year": 2025,
+      "in_driver_cohort": true,
+      "ev_opshut_orig": null,
+      "ev_opshut_corr": null,
+      "ev_all_orig": 2024,
+      "ev_all_corr": null
+    }
+  ]
+}

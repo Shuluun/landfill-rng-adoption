@@ -1,0 +1,51 @@
+{
+  "actual_command": [
+    "C:\\Users\\<user>\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+    "src/make_mainline_figures.py",
+    "--main",
+    "run_006",
+    "--temporal",
+    "run_005",
+    "--run",
+    "run_003"
+  ],
+  "started_utc": "2026-11-10T20:16:07.288786+00:00",
+  "wall_seconds": 1.7936740999866743,
+  "python": "3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "numpy": "2.4.4",
+    "pandas": "3.0.2",
+    "scipy": "1.18.0",
+    "openpyxl": "3.1.5",
+    "matplotlib": "3.11.1"
+  },
+  "git_head_at_run": "21a2a3c5dcda440c5de4f80be4996a3c3b95f25c",
+  "git_status_at_run": "M src/build_event_ledger.py\n?? README.md\n?? STATUS.md\n?? baseline_reproduction_report.md\n?? claims_to_evidence.md\n?? manuscript_revision_outline.md\n?? results/\n?? src/deployment_comparisons.py\n?? temporal_complement_2020.md",
+  "openblas_num_threads": "1",
+  "seed": null,
+  "random_split": null,
+  "paid_services": false,
+  "sha256": {
+    "rng_mainline_strengthening_v1/results/mainline/run_006/annual_deployments.csv": "62be556c2a542d6dc4610a88a26ab1fc9005117fc191af684fb2a8838c01092c",
+    "rng_mainline_strengthening_v1/results/mainline/run_006/deployment_comparisons.csv": "9a3246849f678daf10be81c87deebc25722bab4fbddda734e5576f03128676d9",
+    "rng_mainline_strengthening_v1/results/temporal/run_005/landmark2020_models.csv": "a12fae6f326fc52fe844d77e468f1b5387c7ce194d0fe8596351537b46c36078",
+    "outputs/2026-11-09_rng_additionality_stratified/run_001/additionality_stratified_summary.json": "b9af367eb329648df2256f16aaa6049b46184449ca4e97c5ec83756dc3661ad3",
+    "outputs/2026-11-08_rng_additionality_flow/run_001/additionality_flow_summary.json": "53e6266bb3097e79be44dee20c1bcbf8aa99c6d4b0ee318f2918ce8da322fdc8",
+    "rng_mainline_strengthening_v1/src/build_event_ledger.py": "ef7fe7e702e0ea190363ffaa9a281079db5694efc06f935c1070c1c590a1c13c",
+    "rng_mainline_strengthening_v1/src/common.py": "18ea20ae544c65996cc34c05c45d802f5d87f37349312e51d5a409f997aadec3",
+    "rng_mainline_strengthening_v1/src/compare.py": "9993213ce4affb47a103e4606b052bbacc6784464c71358132c64bf64dde4cd3",
+    "rng_mainline_strengthening_v1/src/deployment_comparisons.py": "ad6f5e0c6c1efa6d4af0cf37de2be9e76cc2afcd5f350b10a2361fce28c84737",
+    "rng_mainline_strengthening_v1/src/events.py": "76618330744036e6a19800ad838a6b52cdb629b3d5c8ce08409b81cb71cce0a8",
+    "rng_mainline_strengthening_v1/src/explore_event_map.py": "40766c2883d29068ac339060c07ca6e96459c4d17bf3950c19f6c84fc42ce6af",
+    "rng_mainline_strengthening_v1/src/geometry.py": "c92de41ebe5184936962ba1ca0b4611660fbc3d40b44101386b07975e19ba5af",
+    "rng_mainline_strengthening_v1/src/make_mainline_figures.py": "433185d58411226ded48a4550bb0001127740bf21e9610c1451f31f6a1c710e4",
+    "rng_mainline_strengthening_v1/src/model.py": "757c959ada4ed8b56a904348dbfd9dc9f6aafacb6d2ad60ce4373f4351caa1f8",
+    "rng_mainline_strengthening_v1/src/reconcile_model.py": "4331820e899bbf9e6418f92c88ebf2bb81f2d06f0ebce03df7a20f5d2526dad1",
+    "rng_mainline_strengthening_v1/src/reproduce_legacy.py": "c5e256b5eec38815203fd68cc2874b7830331aa1904c699ed10600f1f963d7c8",
+    "rng_mainline_strengthening_v1/src/run_main.py": "71dd28d161ee19350c292fb3f182427df4e0c2a698dcb11400e6b16aab4f6baa",
+    "rng_mainline_strengthening_v1/src/temporal.py": "adac33c40c86c4ce9840c3c9c7bfb252176dbfbe8e912b4aba4a819b3c46d043",
+    "rng_mainline_strengthening_v1/src/verify_mainline_outputs.py": "39839f4c89719c4b3209e751c18753fdc3c367f38d4856ab4db255f1bedd630f"
+  },
+  "output_dir": "results/figures/run_003"
+}

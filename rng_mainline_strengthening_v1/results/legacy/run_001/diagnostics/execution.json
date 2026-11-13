@@ -1,0 +1,14 @@
+{
+  "command": [
+    "C:\\Users\\<user>\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+    "rng_mainline_strengthening_v1/src/reproduce_legacy.py",
+    "diagnostics"
+  ],
+  "started_utc": "2026-11-10T19:50:23.063516+00:00",
+  "wall_seconds": 15.68796049998491,
+  "original_script": "scripts/driver_logit_diagnostics_20261110.py",
+  "original_sha256": "b8e5a7253fb6f5fe3294c197448bdacee89f3d5d8200fae367ea322bfecf4ef0",
+  "interpreter": "C:\\Users\\<user>\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+  "only_source_change": "Route the output safety guard to the isolated repository.",
+  "output": "results/legacy/run_001/diagnostics"
+}

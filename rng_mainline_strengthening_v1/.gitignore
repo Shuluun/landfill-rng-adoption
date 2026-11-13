@@ -1,0 +1,9 @@
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.mplconfig/
+# Earlier exploratory runs are retained locally.
+/results/mainline/run_00[1-5]/
+/results/temporal/run_00[1-4]/
+/results/figures/run_00[1-2]/
+/results/checks/run_00[1-2]/

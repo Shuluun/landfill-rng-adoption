@@ -1,0 +1,14 @@
+{
+  "command": [
+    "C:\\Users\\<user>\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+    "rng_mainline_strengthening_v1/src/reproduce_legacy.py",
+    "backfill"
+  ],
+  "started_utc": "2026-11-10T19:50:23.044360+00:00",
+  "wall_seconds": 30.192692500015255,
+  "original_script": "scripts/driver_consequence_backfill_20261109.py",
+  "original_sha256": "ef2c721f2d83b1a0ae92530b3dbb8e472a44fa5e20261ab4b1b389ec98efb7b0",
+  "interpreter": "C:\\Users\\<user>\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+  "only_source_change": "Route the output safety guard to the isolated repository.",
+  "output": "results/legacy/run_001/backfill"
+}

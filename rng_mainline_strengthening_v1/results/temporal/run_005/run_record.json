@@ -1,0 +1,51 @@
+{
+  "actual_command": [
+    "C:\\Users\\<user>\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+    "rng_mainline_strengthening_v1/src/temporal.py",
+    "--run",
+    "run_005"
+  ],
+  "started_utc": "2026-11-10T20:15:38.756955+00:00",
+  "wall_seconds": 20.768232700007502,
+  "python": "3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "packages": {
+    "numpy": "2.4.4",
+    "pandas": "3.0.2",
+    "scipy": "1.18.0",
+    "openpyxl": "3.1.5",
+    "matplotlib": "3.11.1"
+  },
+  "git_head_at_run": "21a2a3c5dcda440c5de4f80be4996a3c3b95f25c",
+  "git_status_at_run": "M src/build_event_ledger.py\n?? README.md\n?? STATUS.md\n?? baseline_reproduction_report.md\n?? claims_to_evidence.md\n?? manuscript_revision_outline.md\n?? results/\n?? src/deployment_comparisons.py\n?? temporal_complement_2020.md",
+  "openblas_num_threads": "1",
+  "seed": null,
+  "random_split": null,
+  "paid_services": false,
+  "sha256": {
+    "data/raw/2026-10-06_public_inputs/lmopdata.xlsx": "a5c8bea26e7b5f6ecef247b762bde89b999915504814825a1eac7a1cd9f4ddd3",
+    "inputs/public/topic_selection_2026-10-20/root_sources/national_lmopdata_files_2001-2023.zip": "3dfe8a3adc948280b9940964ccd266123f6035c00525ef4c6b39e98beb8ba20c",
+    "inputs/public/rng_adoption_review_2026-11-04/NaturalGas_InterIntrastate_Pipelines_US_EIA.zip": "bfd9757e299926748b9806ab92c080f7fdc7319a1df5c12f75ee35be3791ac56",
+    "inputs/public/hifld_natural_gas_pipelines_20261104/shapefile_extracted/natural-gas-interstate-and-intrastate-pipelines.shp": "de6c0c45fe33b4bc1ae033f13059d8514245e30604bf1c5d9df90466aeb92e6a",
+    "outputs/2026-11-09_rng_adoption_date_validation_sample/run_001/full_verification_30.csv": "3f8ab03547c46af137f3a394cae65ef6180025e2aed420574d2ac6789b5523a6",
+    "outputs/2026-11-09_rng_never_operational_verify/run_003/never_operational_full_36_final.csv": "6aaae3c10a8a1fba3d07b546a62f80e02987092c653e51ee1b5e97d6bfcfc284",
+    "outputs/2026-11-04_rng_pipeline_signal_audit_002/SNAPSHOT_NEW_OPERATIONAL_CANDIDATES.csv": "901e617cc0b7801d80536a781f3fb8884d5aeb0bef6c689cdda3f7cfc0d2b589",
+    "rng_mainline_strengthening_v1/evidence/targeted_sources.csv": "00a6c10e07789e909a0706419936dbd57bb98ffeaa0efdd0328376d9664d8e9b",
+    "rng_mainline_strengthening_v1/evidence/targeted_adjudications.csv": "2d63b043b47c8b95db1d76ef0490f45d96b3ba9e8ee5f26ea44058778b7e6b11",
+    "rng_mainline_strengthening_v1/src/build_event_ledger.py": "ef7fe7e702e0ea190363ffaa9a281079db5694efc06f935c1070c1c590a1c13c",
+    "rng_mainline_strengthening_v1/src/common.py": "18ea20ae544c65996cc34c05c45d802f5d87f37349312e51d5a409f997aadec3",
+    "rng_mainline_strengthening_v1/src/compare.py": "9993213ce4affb47a103e4606b052bbacc6784464c71358132c64bf64dde4cd3",
+    "rng_mainline_strengthening_v1/src/deployment_comparisons.py": "ad6f5e0c6c1efa6d4af0cf37de2be9e76cc2afcd5f350b10a2361fce28c84737",
+    "rng_mainline_strengthening_v1/src/events.py": "76618330744036e6a19800ad838a6b52cdb629b3d5c8ce08409b81cb71cce0a8",
+    "rng_mainline_strengthening_v1/src/explore_event_map.py": "40766c2883d29068ac339060c07ca6e96459c4d17bf3950c19f6c84fc42ce6af",
+    "rng_mainline_strengthening_v1/src/geometry.py": "c92de41ebe5184936962ba1ca0b4611660fbc3d40b44101386b07975e19ba5af",
+    "rng_mainline_strengthening_v1/src/make_mainline_figures.py": "433185d58411226ded48a4550bb0001127740bf21e9610c1451f31f6a1c710e4",
+    "rng_mainline_strengthening_v1/src/model.py": "757c959ada4ed8b56a904348dbfd9dc9f6aafacb6d2ad60ce4373f4351caa1f8",
+    "rng_mainline_strengthening_v1/src/reconcile_model.py": "4331820e899bbf9e6418f92c88ebf2bb81f2d06f0ebce03df7a20f5d2526dad1",
+    "rng_mainline_strengthening_v1/src/reproduce_legacy.py": "c5e256b5eec38815203fd68cc2874b7830331aa1904c699ed10600f1f963d7c8",
+    "rng_mainline_strengthening_v1/src/run_main.py": "71dd28d161ee19350c292fb3f182427df4e0c2a698dcb11400e6b16aab4f6baa",
+    "rng_mainline_strengthening_v1/src/temporal.py": "adac33c40c86c4ce9840c3c9c7bfb252176dbfbe8e912b4aba4a819b3c46d043",
+    "rng_mainline_strengthening_v1/src/verify_mainline_outputs.py": "39839f4c89719c4b3209e751c18753fdc3c367f38d4856ab4db255f1bedd630f"
+  },
+  "output_dir": "results/temporal/run_005"
+}

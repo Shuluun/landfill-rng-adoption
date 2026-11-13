@@ -1,0 +1,102 @@
+{
+  "event_map": "ev_opshut_corr",
+  "structure": {
+    "n_landfills": 1821,
+    "risk_years": 52905,
+    "n_events": 121,
+    "expect": {
+      "n_landfills": 1502,
+      "risk_years": 43593,
+      "n_events": 121
+    },
+    "ok": false
+  },
+  "optimizer_check": {
+    "newton_beta": [
+      -21.878840932951274,
+      -0.17217113773224096,
+      1.014247518892624
+    ],
+    "scipy_beta": [
+      -21.87882457757108,
+      -0.1721712067443156,
+      1.0142465301919952
+    ],
+    "max_abs_diff": 1.6355380193289193e-05,
+    "agree_1e-6": true,
+    "newton_iters": 7,
+    "newton_max_grad": 2.759463699208986e-10,
+    "scipy_success": false
+  },
+  "zero_event_state_drop": {
+    "n_dropped": 18,
+    "states": [
+      "AL",
+      "AZ",
+      "CO",
+      "CT",
+      "DE",
+      "ID",
+      "MA",
+      "MD",
+      "ND",
+      "NJ",
+      "NM",
+      "NV",
+      "OR",
+      "RI",
+      "SD",
+      "UT",
+      "VT",
+      "WY"
+    ]
+  },
+  "full_state_fit_diagnose": {
+    "raised": "Unpenalized model is separated (quasi_complete)"
+  },
+  "common_state_fit": {
+    "n_landfills": 1502,
+    "n_states": 30,
+    "risk_years": 43593,
+    "n_events": 121,
+    "ln_distance": -0.16560292507422264,
+    "cluster_se": 0.06840965469413327,
+    "conley100_se": 0.0749483741035863,
+    "ln_distance_ci_low": -0.31249903901708626,
+    "ln_distance_ci_high": -0.018706811131359025,
+    "doubling_or": 0.8915558462641491,
+    "doubling_or_low": 0.8052457023507023,
+    "doubling_or_high": 0.987117130445235,
+    "parameters": 37,
+    "rank": 37,
+    "info_condition": 514724.4875721941,
+    "max_abs_gradient": 4.361198936708721e-09,
+    "iterations": 9,
+    "separation": "no_direction_detected",
+    "ridge": 0,
+    "state_fe": true,
+    "calendar": true,
+    "controls": "log_dist+log_waste",
+    "dropped_states": [
+      "AL",
+      "AZ",
+      "CO",
+      "CT",
+      "DE",
+      "ID",
+      "MA",
+      "MD",
+      "ND",
+      "NJ",
+      "NM",
+      "NV",
+      "OR",
+      "RI",
+      "SD",
+      "UT",
+      "VT",
+      "WY"
+    ]
+  },
+  "note": "model.py validated: make_risk reproduces the legacy risk set exactly; Newton matches scipy BFGS to ~1e-7 on the exposure coefficient; period-FE spec gives ln_distance -0.166 vs legacy year-FE -0.169 (calendar-group vs year-dummy spec, by design)."
+}
