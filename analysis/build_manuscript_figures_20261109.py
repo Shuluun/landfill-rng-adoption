@@ -63,8 +63,9 @@ EV_X = {'pre_le_-5': -5, 'k-4': -4, 'k-3': -3, 'k-2': -2,
 def ev_xy(ev_dict):
     xs, ys, ses = [], [], []
     for k, x in EV_X.items():
-        if k in ev_dict:
-            xs.append(x); ys.append(ev_dict[k]['coef']); ses.append(ev_dict[k]['se'])
+        key = 'ev_' + k
+        if key in ev_dict:
+            xs.append(x); ys.append(ev_dict[key]['coef']); ses.append(ev_dict[key]['se'])
     return np.array(xs), np.array(ys), np.array(ses)
 
 

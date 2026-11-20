@@ -10,9 +10,9 @@ Two connected lines of analysis:
 
 1. **Driver (deployment).** Reconciling the EPA LMOP registry's project status/dates against public records to build a first-injection event ledger, then estimating the conditional annual odds ratio of deployment per doubling of mapped pipeline distance, with spatially clustered (Conley HAC) inference. A 2020 landmark cohort checks that baseline information precedes the outcome.
 
-2. **Additionality (reported methane collection).** Event-study / difference-in-differences of facility-reported landfill-gas methane concentration, gas flow, and recovered methane around first RNG injection, with robustness checks: placebo adoption year, wild cluster bootstrap, Romano–Wolf multi-outcome adjustment, Callaway–Sant'Anna staggered DiD, and Rambachan–Roth (HonestDiD) sensitivity to parallel-trends violations.
+2. **Reported methane collection.** Using the reconciled start years, we compare changes in reported landfill-gas methane concentration, volume, and recovered methane over the same years and facilities. We repeat the group-time comparison among facilities with stable reporting flags and use the authors' HonestDiD implementation to assess sensitivity to differential trends.
 
-These are associations of deployment/reporting, **not causal policy effects**. Registry-defined events carry measurement error that is quantified by audit (see the never-operational verification below).
+The deployment and reporting estimates describe associations. Targeted audits document differences between registry dates, operating records, and the gas streams covered by annual reports.
 
 ## Repository layout
 
@@ -41,30 +41,28 @@ inputs/  outputs/             Staging placeholders for data and outputs (not com
 | 2020 landmark cohort: OR ≈ 0.92 (interval ≈ 0.79–1.07), 45 events | `rng_mainline_strengthening_v1/src/temporal.py`, `temporal_complement_2020.md` |
 | Trunk-vs-intrastate pipeline decomposition (signal carried by interstate trunk lines) | `analysis/driver_pipeline_endogeneity_20261110.py` |
 
-**Additionality (reported collection)** — see `manuscript/MANUSCRIPT.md`.
+**Reported methane collection** — see the [manuscript](manuscript/MANUSCRIPT.md).
 
-| Result | Script |
-| --- | --- |
-| Methane concentration DiD ≈ +3.97 pp (facility bootstrap 2.75–5.44) | `analysis/additionality_concentration_stable_20261109.py`, `analysis/additionality_cs_did_20261109.py` |
-| Wild cluster bootstrap: +3.98 pp (2.66–5.27); Romano–Wolf: concentration survives, recovery/flow null | `analysis/wild_cluster_bootstrap_romano_wolf_20261109.py` |
-| HonestDiD / Rambachan–Roth breakdown: M̄* ≈ 1.27 (all) / 1.16 (new) / 0.52 (switch) | `analysis/honest_did_relative_magnitudes_20261109.py` |
-| Placebo adoption year: 0/999 permutations exceed the observed statistic | `analysis/placebo_adoption_year_20261109.py` |
-| Mechanism channels: well count +0.14 log (p≈0.005), collection capacity +0.12 log (p≈0.028), efficiency flat | `analysis/additionality_mechanism_consistency_20261109.py` |
-| Physical identity residual (recovered ≈ flow × concentration): no jump at adoption | `analysis/additionality_identity_residual_20261109.py` |
-| 36-facility never-operational audit: 33.3% false adoption (11/33) | `analysis/merge_never_operational_36_20261109.py` |
+| Average difference in changes | 40 facilities, common window | 31 facilities, stable reporting flags |
+| --- | ---: | ---: |
+| Reported methane concentration, percentage points | +3.77 (2.63 to 5.07) | +3.51 (2.16 to 5.09) |
+| Reported methane recovery, % | +28.08 (15.27 to 44.48) | +23.65 (10.14 to 41.63) |
+| Reported gas volume, % | +39.70 (−4.49 to 106.04) | −2.92 (−19.68 to 13.03) |
+
+Parentheses show 95% facility bootstrap intervals for the common-window comparison. In the expanded 39-facility sensitivity window, the HonestDiD intervals for concentration and recovery both span zero at a relative-magnitude bound of 1.
 
 ## Honest limitations
 
 - Distance → adoption is an **association**; the pipeline layer lacks build-year data, so temporal precedence is not established (the 2020 landmark analysis is the time-ordering complement).
-- The concentration "quality additionality" is robust at the all/new level but **fragile for the switch subgroup** (HonestDiD M̄* ≈ 0.52).
-- Reported gas fields (flow / concentration / recovered CH4) are **three independent measurements** that do not reconcile tightly at the facility-year level (within-facility std ≈ 0.65 log in the identity residual).
+- The estimated concentration difference is similar across the two common-window samples. The recovery difference remains sensitive to pre-start trends.
+- The reported gas volume, methane concentration, and recovered methane share measurement inputs. The decomposition uses annual report fields and is sensitive to how those fields were compiled.
 - Registry-defined deployment events are measured with error; the 36-facility audit found 33.3% false adoption among never-operational records.
 
 ## Reproduction
 
 1. Stage public inputs per [DATA.md](DATA.md) and set `<PROJECT_ROOT>` where redacted.
 2. Reproduce the mainline first (see `rng_mainline_strengthening_v1/README.md` for the exact run recipe).
-3. Run additionality scripts from the repository root (`OPENBLAS_NUM_THREADS=1`); scripts are versioned by date — later dates supersede earlier ones.
+3. The scripts in `analysis/` include the earlier registration-based estimates. The provenance index in the local research workspace identifies the frozen inputs, commands, and outputs for the common-window results in manuscript v1.1.
 
 ## Provenance note
 
