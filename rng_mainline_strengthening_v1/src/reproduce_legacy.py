@@ -10,8 +10,7 @@ import sys
 import time
 
 
-REPO = Path(__file__).resolve().parents[1]
-ROOT = REPO.parent
+from common import REPO, ROOT
 SCRIPTS = {
     "backfill": "driver_consequence_backfill_20261109.py",
     "spatial": "spatial_conley_hac_20261110.py",
@@ -27,7 +26,7 @@ def main():
     if not args.batch.startswith("run_") or not args.batch[4:].isdecimal():
         parser.error("use a new run_NNN batch label")
 
-    source = ROOT / "scripts" / SCRIPTS[args.model]
+    source = ROOT / "analysis" / SCRIPTS[args.model]
     original = source.read_text(encoding="utf-8")
     old_guard = "if not out.is_relative_to(ROOT / 'outputs'):"
     if original.count(old_guard) != 1:

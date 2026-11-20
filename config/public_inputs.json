@@ -1,0 +1,31 @@
+{
+  "lmop": {
+    "filename": "lmop/lmopdata.xlsx",
+    "url": "https://www.epa.gov/system/files/documents/2024-09/lmopdata.xlsx",
+    "sha256": "a5c8bea26e7b5f6ecef247b762bde89b999915504814825a1eac7a1cd9f4ddd3",
+    "recorded": "2026-10-06",
+    "required_for_mainline": true
+  },
+  "hifld_archive": {
+    "filename": "hifld/natural-gas-interstate-and-intrastate-pipelines.zip",
+    "url": "https://storage.googleapis.com/hifld-next-datasets-prod/hifld/natural-gas-interstate-and-intrastate-pipelines/natural-gas-interstate-and-intrastate-pipelines/v1.0.0/shapefile/natural-gas-interstate-and-intrastate-pipelines.zip",
+    "sha256": "b799c2fecbe1b571ad9a467b6c8050da4026672adc6024dd4ec5a247a849ca7c",
+    "recorded": "2026-11-04",
+    "required_for_mainline": true
+  },
+  "lmop_history": {
+    "filename": "lmop/national_lmopdata_files_2001-2023.zip",
+    "url": "https://www.epa.gov/system/files/other-files/2024-03/national_lmopdata_files_2001-2023.zip",
+    "sha256": "3dfe8a3adc948280b9940964ccd266123f6035c00525ef4c6b39e98beb8ba20c",
+    "recorded": "2026-10-20",
+    "required_for_mainline": false
+  },
+  "eia_landmark": {
+    "filename": "eia/NaturalGas_InterIntrastate_Pipelines_US_EIA.zip",
+    "url": null,
+    "source_page": "https://geo.dot.gov/server/rest/services/BTS/NaturalGas_Pipelines_US_202001/MapServer",
+    "sha256": "bfd9757e299926748b9806ab92c080f7fdc7319a1df5c12f75ee35be3791ac56",
+    "recorded": "2026-11-10 locked landmark provenance; exact download time unrecorded",
+    "required_for_mainline": false
+  }
+}

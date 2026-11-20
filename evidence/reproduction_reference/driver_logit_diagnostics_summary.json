@@ -1,0 +1,95 @@
+{
+  "script_sha256": "b8e5a7253fb6f5fe3294c197448bdacee89f3d5d8200fae367ea322bfecf4ef0",
+  "result": {
+    "coef_log_dist": -0.1687002936152284,
+    "se": 0.06529690321295631,
+    "p": 0.009777852795147535,
+    "n_py": 43593,
+    "n_events": 121,
+    "n_landfills": 1502,
+    "dropped_states": [
+      "AL",
+      "AZ",
+      "CO",
+      "CT",
+      "DE",
+      "ID",
+      "MA",
+      "MD",
+      "ND",
+      "NJ",
+      "NM",
+      "NV",
+      "OR",
+      "RI",
+      "SD",
+      "UT",
+      "VT",
+      "WY"
+    ],
+    "n_dropped_states": 18,
+    "n_event_year_dummies": 25,
+    "top_abs_beta": [
+      {
+        "name": "intercept",
+        "beta": -38.185729656011205,
+        "se": 54.372671143452955,
+        "abs_beta": 38.185729656011205
+      },
+      {
+        "name": "yr_2024",
+        "beta": 13.31253064794259,
+        "se": 54.34111293605334,
+        "abs_beta": 13.31253064794259
+      },
+      {
+        "name": "yr_2023",
+        "beta": 13.09792191757885,
+        "se": 54.34117474981209,
+        "abs_beta": 13.09792191757885
+      },
+      {
+        "name": "yr_2018",
+        "beta": 12.3747811426058,
+        "se": 54.34144613814851,
+        "abs_beta": 12.3747811426058
+      },
+      {
+        "name": "yr_2022",
+        "beta": 12.158191779511055,
+        "se": 54.341831645265316,
+        "abs_beta": 12.158191779511055
+      },
+      {
+        "name": "yr_2021",
+        "beta": 11.947985020774704,
+        "se": 54.34199716427668,
+        "abs_beta": 11.947985020774704
+      },
+      {
+        "name": "yr_2020",
+        "beta": 11.562944654426081,
+        "se": 54.342518230098044,
+        "abs_beta": 11.562944654426081
+      },
+      {
+        "name": "yr_2019",
+        "beta": 11.543390854291832,
+        "se": 54.342517039076284,
+        "abs_beta": 11.543390854291832
+      }
+    ],
+    "diagnostics": {
+      "converged": true,
+      "iterations": 25,
+      "max_abs_gradient_ridge": 1.4251037955678649e-11,
+      "info_matrix_cond_number": 2643339718.0322986,
+      "max_abs_beta": 38.185729656011205,
+      "n_params": 57,
+      "ridge": 1e-06,
+      "unpenalized_log_dist_coef": null,
+      "unpenalized_vs_ridge_log_dist_diff": null,
+      "unpenalized_singular": true
+    }
+  }
+}

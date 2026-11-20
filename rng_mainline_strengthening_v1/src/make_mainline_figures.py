@@ -11,15 +11,15 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
-from common import REPO, ROOT, csv, write_json
+from common import REFERENCE, REPO, csv, write_json
 from run_main import fresh_dir, run_provenance
 
 NAVY = "#135078"
 TEAL = "#04766d"
 RUST = "#bc5530"
 GRAY = "#6a7077"
-STRAT = ROOT / "outputs/2026-11-09_rng_additionality_stratified/run_001/additionality_stratified_summary.json"
-FLOW = ROOT / "outputs/2026-11-08_rng_additionality_flow/run_001/additionality_flow_summary.json"
+STRAT = REFERENCE / "additionality_stratified_summary.json"
+FLOW = REFERENCE / "additionality_flow_summary.json"
 EVENT_KEYS = {
     -5: "pre_le_-5", -4: "k-4", -3: "k-3", -2: "k-2",
     0: "k0", 1: "k1", 2: "k2", 3: "k3", 4: "post_ge_4",

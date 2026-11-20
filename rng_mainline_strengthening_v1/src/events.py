@@ -3,15 +3,15 @@
 import numpy as np
 import pandas as pd
 
-from common import AUDIT30, AUDIT36, BROAD, CONUS, DISTANCES, EARLY, END, LANDFILLS, LMOP, OP, REPO, ROOT, SITE
-from common import pipeline_rows
+from common import AUDIT30, AUDIT36, BROAD, CONUS, DISTANCES, EARLY, END, LANDFILLS, LMOP, OP, REPO, SITE
+from common import path_label, pipeline_rows
 
 
 def evidence_tables():
     rows = [{
         "source_id": "LMOP_2024", "landfill_id": "", "source_url": "https://www.epa.gov/system/files/documents/2024-09/lmopdata.xlsx",
         "publication_date": "", "locator": "LMOP Database sheet; exact Excel row in event ledger",
-        "local_record": LMOP.relative_to(ROOT).as_posix(), "kind": "federal_registry",
+        "local_record": path_label(LMOP), "kind": "federal_registry",
         "audit_design": "September 2024 composite snapshot", "review": "frozen_registry_not_event_validation",
     }]
     audits = {}
@@ -27,7 +27,7 @@ def evidence_tables():
                 "source_id": f"{label}_{lid}", "landfill_id": str(lid),
                 "source_url": row["ext_source_url"], "publication_date": "",
                 "locator": f"CSV line {i + 2}",
-                "local_record": path.relative_to(ROOT).as_posix(),
+                "local_record": path_label(path),
                 "paraphrase": row["ext_notes"],
                 "kind": row["ext_source_type"], "audit_design": design,
                 "review": "inherited_audit_independent_human_review_unrecorded",

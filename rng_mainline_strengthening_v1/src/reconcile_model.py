@@ -23,13 +23,8 @@ import pandas as pd
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import model  # noqa: E402
-from common import EARLY, END, PERIODS, SITE  # noqa: E402
-
-ROOT = Path(__file__).resolve().parents[2]
-REPO = Path(__file__).resolve().parents[1]
-LMOP = ROOT / "data/raw/2026-10-06_public_inputs/lmopdata.xlsx"
-LANDFILL_CSV = ROOT / "outputs/2026-11-04_rng_denominator_gate/run_001/landfill_level.csv"
-DIST_CSV = ROOT / "outputs/2026-11-06_rng_distance_geodesic_verify/run_001/nearest_pipeline_distance_verified.csv"
+from common import EARLY, END, LMOP, PERIODS, REPO, SITE  # noqa: E402
+from common import DISTANCES as DIST_CSV, LANDFILLS as LANDFILL_CSV  # noqa: E402
 
 RNG_CATEGORY = "Renewable Natural Gas"
 RNG_METHODS = {"Pipeline Injection", "Local Use"}

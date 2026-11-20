@@ -19,6 +19,9 @@ inputs/*
 !inputs/.gitkeep
 outputs/*
 !outputs/.gitkeep
+data/raw/
+data/derived/
+config/paths.local.toml
 
 # OS / editor
 .DS_Store

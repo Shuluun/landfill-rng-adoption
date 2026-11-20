@@ -13,14 +13,15 @@ import time
 import pandas as pd
 
 from common import AUDIT30, AUDIT36, DISTANCES, HIFLD, LANDFILLS, LMOP, REPO, ROOT, SITE
-from common import csv, read_book, sha, write_json
+from common import csv, path_label, read_book, sha, write_json
 from compare import compare
 from events import get_maps, ledger, sites_and_exclusions
 
 
 def run_provenance(out, started, elapsed, inputs):
     def git(args):
-        return subprocess.run(["git", "-C", str(REPO), *args], capture_output=True, text=True).stdout.strip()
+        return subprocess.run(["git", "--no-optional-locks", "-c", f"safe.directory={ROOT.as_posix()}",
+                               "-C", str(REPO), *args], capture_output=True, text=True).stdout.strip()
     code = sorted((REPO / "src").glob("*.py"))
     paths = dict.fromkeys([*inputs, *code])
     write_json({
@@ -32,15 +33,15 @@ def run_provenance(out, started, elapsed, inputs):
         "git_status_at_run": git(["status", "--short", "--untracked-files=normal"]),
         "openblas_num_threads": os.getenv("OPENBLAS_NUM_THREADS"),
         "seed": None, "random_split": None, "paid_services": False,
-        "sha256": {p.relative_to(ROOT).as_posix(): sha(p) for p in paths},
-        "output_dir": out.relative_to(REPO).as_posix(),
+        "sha256": {path_label(p): sha(p) for p in paths},
+        "output_dir": out.relative_to(REPO).as_posix() if out.is_relative_to(REPO) else path_label(out),
     }, out, "run_record")
 
 
-def fresh_dir(argument, group):
+def fresh_dir(argument, group, results_dir=REPO / "results"):
     if not argument.startswith("run_") or not argument[4:].isdecimal():
         raise ValueError("use a new run_NNN directory")
-    out = REPO / "results" / group / argument
+    out = results_dir / group / argument
     out.mkdir(parents=True, exist_ok=False)
     return out
 
@@ -48,8 +49,9 @@ def fresh_dir(argument, group):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--run", required=True)
+    parser.add_argument("--results-dir", type=Path, default=REPO / "results")
     args = parser.parse_args()
-    out = fresh_dir(args.run, "mainline")
+    out = fresh_dir(args.run, "mainline", args.results_dir.resolve())
     started = datetime.now(timezone.utc)
     tick = time.monotonic()
     book = read_book(LMOP)

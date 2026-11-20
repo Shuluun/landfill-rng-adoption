@@ -8,7 +8,7 @@ import time
 import numpy as np
 import pandas as pd
 
-from common import EARLY, REPO, ROOT, SITE, sha, write_json
+from common import EARLY, REFERENCE, REPO, ROOT, SITE, sha, write_json
 from model import fit_logit, make_risk
 from run_main import fresh_dir, run_provenance
 
@@ -20,9 +20,9 @@ def read_json(p):
 def verify_legacy():
     legacy = REPO / "results/legacy/run_001"
     original = {
-        "backfill": ROOT / "outputs/2026-11-09_rng_driver_backfill/run_001/driver_consequence_backfill_summary.json",
-        "spatial": ROOT / "outputs/2026-11-10_rng_spatial_conley/run_001/spatial_conley_hac_summary.json",
-        "diagnostics": ROOT / "outputs/2026-11-10_rng_driver_logit_diagnostics/run_002/driver_logit_diagnostics_summary.json",
+        "backfill": REFERENCE / "driver_consequence_backfill_summary.json",
+        "spatial": REFERENCE / "spatial_conley_hac_summary.json",
+        "diagnostics": REFERENCE / "driver_logit_diagnostics_summary.json",
     }
     paths = [*original.values()]
     saved, replay = {}, {}

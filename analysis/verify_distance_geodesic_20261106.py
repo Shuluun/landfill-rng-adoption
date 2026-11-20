@@ -15,9 +15,8 @@ import numpy as np
 import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[1]
-SHP = ROOT / 'inputs/public/hifld_natural_gas_pipelines_20261104/shapefile_extracted/natural-gas-interstate-and-intrastate-pipelines.shp'
-LANDFILL_CSV = ROOT / 'outputs/2026-11-04_rng_denominator_gate/run_001/landfill_level.csv'
-OLD_DIST_CSV = ROOT / 'outputs/2026-11-04_rng_pipeline_distance/run_002/nearest_pipeline_distance.csv'
+sys.path.insert(0, str(ROOT))
+from rng_paths import DERIVED, HIFLD as SHP, LANDFILLS as LANDFILL_CSV, RAW_DISTANCES as OLD_DIST_CSV
 
 R_SPHERE = 6378137.0  # Web Mercator auxiliary sphere radius (m), used only for the inverse projection
 R_KM = 6371.0088      # mean Earth radius (km) for the spherical great-circle verification
@@ -105,7 +104,7 @@ def main():
     ap.add_argument('--output', type=Path, required=True)
     args = ap.parse_args()
     out = args.output.resolve()
-    if not out.is_relative_to(ROOT / 'outputs'):
+    if not (out.is_relative_to(ROOT / 'outputs') or out.is_relative_to(DERIVED)):
         raise ValueError('output must stay under outputs/')
     out.mkdir(parents=True, exist_ok=False)
     start = time.monotonic()

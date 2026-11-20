@@ -1,0 +1,49 @@
+﻿Landfill ID,name,state,earliest_2024_operational_pipe_start,start_before_2020_Aug01,start_after_2020_Aug31,baseline_any_rng,baseline_prior_operational_or_shutdown_pipeline,baseline_rng_statuses,current_excel_rows
+433,New River Regional LF,FL,2023-01-05,False,True,True,False,Planned,686
+562,Medora SLF,IN,2023-11-01,False,True,True,False,Planned,1116
+567,Twin Bridges RDF,IN,2023-06-30,False,True,False,False,,1162
+614,Black Hawk County SLF (Area E),IA,2024-08-29,False,True,False,False,,848
+619,Dubuque Metropolitan SLF,IA,2021-10-15,False,True,False,False,,861
+675,Benson Valley LF,KY,2023-08-31,False,True,False,False,,1249
+725,Jefferson Parish SLF,LA,2020-01-01,True,False,False,False,,1301
+820,Pine Bend Landfill,MN,2022-10-25,False,True,True,False,Planned,1624
+890,Eagle Ridge Sanitary Landfill,MO,2023-08-10,False,True,False,False,,1673
+982,New Bath Landfill,NY,2024-03-15,False,True,False,False,,2278
+990,Chautauqua County Landfill,NY,2022-06-12,False,True,True,False,Planned,2217
+1187,Carbon Limestone LF,OH,2023-08-03,False,True,False,False,,2339
+1227,East Oak SLF,OK,2022-05-31,False,True,True,False,Construction;Shutdown,2435
+1254,Alliance SLF,PA,2021-12-30,False,True,True,True,Shutdown,2502
+1256,"Keystone Sanitary Landfill, Inc.",PA,2021-12-30,False,True,True,False,Planned,2556
+1274,Wayne Township LF,PA,2023-04-01,False,True,False,False,,2625
+1293,Bethlehem Landfill,PA,2024-08-20,False,True,True,False,Planned,2506
+1330,South Shelby Landfill,TN,2020-08-18,False,False,True,False,Construction,2866
+1337,Bradley County LF,TN,2023-11-30,False,True,True,False,Construction,2749
+1456,Skyline LF,TX,2020-02-01,True,False,True,False,Construction,3024
+1461,DFW Recycling & Disposal Facility,TX,2024-05-23,False,True,True,False,Planned,2958
+1469,J.C. Elliott LF,TX,2024-04-10,False,True,False,False,,2982
+1576,Shoosmith SLF,VA,2023-09-30,False,True,False,False,,3194
+1592,Prince William County Sanitary Landfill,VA,2024-06-30,False,True,False,False,,3184
+1597,SPSA Regional LF,VA,2023-08-31,False,True,False,False,,3201
+1667,Glacier Ridge Landfill LLC,WI,2020-10-31,False,True,True,False,Construction,3309
+1676,Mallard Ridge Landfill Inc.,WI,2022-04-30,False,True,False,False,,3325
+1687,Outagamie County LF,WI,2023-03-01,False,True,False,False,,3343
+1808,Coastal Plains RDF,TX,2020-09-30,False,True,True,False,Construction,2952
+1820,Tessman Road Landfill,TX,2021-12-31,False,True,True,False,Planned,3032
+1864,Brickyard Disposal & Recycling Inc.,IL,2024-06-01,False,True,False,False,,946
+1879,Arbor Hills Landfill,MI,2023-08-31,False,True,False,False,,1482
+1885,Riverview Land Preserve,MI,2024-03-25,False,True,True,False,Operational;Planned,1566
+1890,Granger Wood Street Landfill,MI,2021-12-31,False,True,False,False,,1528
+1938,Liberty Landfill,IN,2023-10-03,False,True,False,False,,1113
+2199,Upper Piedmont Regional Landfill,NC,2023-09-12,False,True,True,False,Planned,1953
+2200,Foothills Environmental Landfill,NC,2023-09-12,False,True,True,False,Planned,1875
+2245,Noble Road LF,OH,2022-03-03,False,True,False,False,,2398
+2282,Eco-Vista Landfill,AR,2023-05-24,False,True,True,False,Construction,76
+2315,Prairie View RDF,IL,2022-12-02,False,True,True,False,Planned,1013
+11180,Twin Chimneys Landfill,SC,2023-03-31,False,True,True,False,Planned,2724
+11240,Juniper Ridge Landfill,ME,2024-06-09,False,True,True,False,Planned,1464
+11320,Plumb Thicket Landfill,KS,2022-01-01,False,True,False,False,,1225
+11460,Boyd County Sanitary Landfill,KY,2021-05-13,False,True,True,False,Construction,1251
+11761,C.M. Hinton Jr Regional Landfill,TX,2021-08-11,False,True,True,False,Planned,2910
+11781,Loess Hills Regional SLF,IA,2023-09-29,False,True,False,False,,870
+11862,Cefe Valenzuela Landfill,TX,2024-04-10,False,True,False,False,,2913
+20763,Twin Oaks Landfill,TX,2022-12-28,False,True,False,False,,3039

@@ -1,0 +1,9 @@
+[paths]
+raw = "data/raw"
+derived = "data/derived"
+
+[inputs]
+lmop = "lmop/lmopdata.xlsx"
+hifld_archive = "hifld/natural-gas-interstate-and-intrastate-pipelines.zip"
+lmop_history = "lmop/national_lmopdata_files_2001-2023.zip"
+eia_landmark = "eia/NaturalGas_InterIntrastate_Pipelines_US_EIA.zip"

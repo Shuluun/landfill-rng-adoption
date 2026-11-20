@@ -1,0 +1,169 @@
+{
+  "script_sha256": "ef2c721f2d83b1a0ae92530b3dbb8e472a44fa5e20261ab4b1b389ec98efb7b0",
+  "results": {
+    "ev_opshut_orig": {
+      "T1_yearFE_log_dist": {
+        "coef": -0.21976111836620807,
+        "se": 0.06104917465557371,
+        "p": 0.00031853627288724873,
+        "n_py": 52906,
+        "n_events": 108,
+        "se_clustered": 0.061822353572432966,
+        "p_clustered": 0.00037838270039025623
+      },
+      "T2_stateFE_log_dist": {
+        "coef": -0.17149685153812125,
+        "se": 0.06784357335080447,
+        "p": 0.011477072106175878,
+        "n_py": 38107,
+        "n_events": 108,
+        "dropped_states": [
+          "AL",
+          "AZ",
+          "CA",
+          "CO",
+          "CT",
+          "DE",
+          "ID",
+          "MA",
+          "MD",
+          "ND",
+          "NJ",
+          "NM",
+          "NV",
+          "OR",
+          "RI",
+          "SD",
+          "UT",
+          "VT",
+          "WY"
+        ],
+        "se_clustered": 0.07221016125886305,
+        "p_clustered": 0.01755045237557229
+      },
+      "n_events": 108,
+      "n_person_years": 52906
+    },
+    "ev_opshut_corr": {
+      "T1_yearFE_log_dist": {
+        "coef": -0.19372856794977575,
+        "se": 0.05872321635234459,
+        "p": 0.0009702592525031584,
+        "n_py": 52905,
+        "n_events": 121,
+        "se_clustered": 0.06187629318354196,
+        "p_clustered": 0.0017427070836677494
+      },
+      "T2_stateFE_log_dist": {
+        "coef": -0.1687002936152284,
+        "se": 0.06529690321295631,
+        "p": 0.009777852795147535,
+        "n_py": 43593,
+        "n_events": 121,
+        "dropped_states": [
+          "AL",
+          "AZ",
+          "CO",
+          "CT",
+          "DE",
+          "ID",
+          "MA",
+          "MD",
+          "ND",
+          "NJ",
+          "NM",
+          "NV",
+          "OR",
+          "RI",
+          "SD",
+          "UT",
+          "VT",
+          "WY"
+        ],
+        "se_clustered": 0.06995200493533918,
+        "p_clustered": 0.01588018123602586
+      },
+      "n_events": 121,
+      "n_person_years": 52905
+    },
+    "ev_all_orig": {
+      "T1_yearFE_log_dist": {
+        "coef": -0.17229783790485817,
+        "se": 0.054700690323059235,
+        "p": 0.0016336587607246322,
+        "n_py": 52906,
+        "n_events": 144,
+        "se_clustered": 0.06021738063103067,
+        "p_clustered": 0.004219552026783369
+      },
+      "T2_stateFE_log_dist": {
+        "coef": -0.18368691884165578,
+        "se": 0.06000955420578985,
+        "p": 0.0022062766076915707,
+        "n_py": 47076,
+        "n_events": 144,
+        "dropped_states": [
+          "AZ",
+          "CO",
+          "CT",
+          "DE",
+          "MA",
+          "MD",
+          "ND",
+          "NM",
+          "NV",
+          "RI",
+          "SD",
+          "VT",
+          "WY"
+        ],
+        "se_clustered": 0.06408975358515237,
+        "p_clustered": 0.00415577781105303
+      },
+      "n_events": 144,
+      "n_person_years": 52906
+    },
+    "ev_all_corr": {
+      "T1_yearFE_log_dist": {
+        "coef": -0.19372856794977575,
+        "se": 0.05872321635234459,
+        "p": 0.0009702592525031584,
+        "n_py": 52905,
+        "n_events": 121,
+        "se_clustered": 0.06187629318354196,
+        "p_clustered": 0.0017427070836677494
+      },
+      "T2_stateFE_log_dist": {
+        "coef": -0.1687002936152284,
+        "se": 0.06529690321295631,
+        "p": 0.009777852795147535,
+        "n_py": 43593,
+        "n_events": 121,
+        "dropped_states": [
+          "AL",
+          "AZ",
+          "CO",
+          "CT",
+          "DE",
+          "ID",
+          "MA",
+          "MD",
+          "ND",
+          "NJ",
+          "NM",
+          "NV",
+          "OR",
+          "RI",
+          "SD",
+          "UT",
+          "VT",
+          "WY"
+        ],
+        "se_clustered": 0.06995200493533918,
+        "p_clustered": 0.01588018123602586
+      },
+      "n_events": 121,
+      "n_person_years": 52905
+    }
+  }
+}

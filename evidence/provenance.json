@@ -1,0 +1,92 @@
+[
+  {
+    "artifact": "evidence/full_verification_30.csv",
+    "archived_source": "outputs/2026-11-09_rng_adoption_date_validation_sample/run_001/full_verification_30.csv",
+    "archived_sha256": "3f8ab03547c46af137f3a394cae65ef6180025e2aed420574d2ac6789b5523a6",
+    "committed_sha256": "3f8ab03547c46af137f3a394cae65ef6180025e2aed420574d2ac6789b5523a6",
+    "copied_fields": null
+  },
+  {
+    "artifact": "evidence/never_operational_full_36_final.csv",
+    "archived_source": "outputs/2026-11-09_rng_never_operational_verify/run_003/never_operational_full_36_final.csv",
+    "archived_sha256": "6aaae3c10a8a1fba3d07b546a62f80e02987092c653e51ee1b5e97d6bfcfc284",
+    "committed_sha256": "6aaae3c10a8a1fba3d07b546a62f80e02987092c653e51ee1b5e97d6bfcfc284",
+    "copied_fields": null
+  },
+  {
+    "artifact": "evidence/reproduction_reference/driver_consequence_backfill_summary.json",
+    "archived_source": "outputs/2026-11-09_rng_driver_backfill/run_001/driver_consequence_backfill_summary.json",
+    "archived_sha256": "fc5a1787a8378c0883e83bff0c4d55fcb9e1abbaaf8617953b94410aed75eb81",
+    "committed_sha256": "dc22497065c353450afe69e5d2d796ecd84b2bc8d2c3330bc30503ffbc21e8b9",
+    "copied_fields": [
+      "script_sha256",
+      "results"
+    ]
+  },
+  {
+    "artifact": "evidence/reproduction_reference/spatial_conley_hac_summary.json",
+    "archived_source": "outputs/2026-11-10_rng_spatial_conley/run_001/spatial_conley_hac_summary.json",
+    "archived_sha256": "682e527e3e24172561c3f07b3a8fabec985cc9d51ce026ceba810c5ca502b809",
+    "committed_sha256": "05b9696f417e4a65e137354c5aafd1bf97e72986af133edfda5931670e580f61",
+    "copied_fields": [
+      "script_sha256",
+      "results"
+    ]
+  },
+  {
+    "artifact": "evidence/reproduction_reference/driver_logit_diagnostics_summary.json",
+    "archived_source": "outputs/2026-11-10_rng_driver_logit_diagnostics/run_002/driver_logit_diagnostics_summary.json",
+    "archived_sha256": "5eb2ba62f2fc695084ce2dfc89d303a922070bc086fd05821dac1cddae6035fc",
+    "committed_sha256": "ba905ffceeba2f4db1f77a7593e79ef20b62ea3e00ec4cfba93855255df0b7ee",
+    "copied_fields": [
+      "script_sha256",
+      "result"
+    ]
+  },
+  {
+    "artifact": "evidence/reproduction_reference/facility_trace.csv",
+    "archived_source": "outputs/2026-11-09_rng_driver_backfill/run_001/facility_trace.csv",
+    "archived_sha256": "878d3d36407f13eaff30585a715d535db8bd8c5491fa52e19b47583630689854",
+    "committed_sha256": "878d3d36407f13eaff30585a715d535db8bd8c5491fa52e19b47583630689854",
+    "copied_fields": null
+  },
+  {
+    "artifact": "evidence/reproduction_reference/additionality_stratified_summary.json",
+    "archived_source": "outputs/2026-11-09_rng_additionality_stratified/run_001/additionality_stratified_summary.json",
+    "archived_sha256": "b9af367eb329648df2256f16aaa6049b46184449ca4e97c5ec83756dc3661ad3",
+    "committed_sha256": "a43dc088e72fdf7afda2c39e45a9be384427841b737ef966439c280277fe7025",
+    "copied_fields": [
+      "results"
+    ]
+  },
+  {
+    "artifact": "evidence/reproduction_reference/additionality_flow_summary.json",
+    "archived_source": "outputs/2026-11-08_rng_additionality_flow/run_001/additionality_flow_summary.json",
+    "archived_sha256": "53e6266bb3097e79be44dee20c1bcbf8aa99c6d4b0ee318f2918ce8da322fdc8",
+    "committed_sha256": "ba86829cb0f8aa4e3eba7ada9715d70530370d9971fea95f08356092aa69c3ba",
+    "copied_fields": [
+      "event_study"
+    ]
+  },
+  {
+    "artifact": "evidence/reproduction_reference/SNAPSHOT_NEW_OPERATIONAL_CANDIDATES.csv",
+    "archived_source": "outputs/2026-11-04_rng_pipeline_signal_audit_002/SNAPSHOT_NEW_OPERATIONAL_CANDIDATES.csv",
+    "archived_sha256": "901e617cc0b7801d80536a781f3fb8884d5aeb0bef6c689cdda3f7cfc0d2b589",
+    "committed_sha256": "901e617cc0b7801d80536a781f3fb8884d5aeb0bef6c689cdda3f7cfc0d2b589",
+    "copied_fields": null
+  },
+  {
+    "artifact": "rng_mainline_strengthening_v1/evidence/targeted_adjudications.csv",
+    "archived_source": "rng_mainline_strengthening_v1/evidence/targeted_adjudications.csv",
+    "archived_sha256": "25ee64d29f91a889a8e3fde350063d1b157e0fad488058c8435fb3207c907fbc",
+    "committed_sha256": "25ee64d29f91a889a8e3fde350063d1b157e0fad488058c8435fb3207c907fbc",
+    "copied_fields": null
+  },
+  {
+    "artifact": "rng_mainline_strengthening_v1/evidence/targeted_sources.csv",
+    "archived_source": "rng_mainline_strengthening_v1/evidence/targeted_sources.csv",
+    "archived_sha256": "00a6c10e07789e909a0706419936dbd57bb98ffeaa0efdd0328376d9664d8e9b",
+    "committed_sha256": "00a6c10e07789e909a0706419936dbd57bb98ffeaa0efdd0328376d9664d8e9b",
+    "copied_fields": null
+  }
+]

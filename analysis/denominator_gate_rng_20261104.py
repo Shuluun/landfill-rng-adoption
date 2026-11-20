@@ -14,7 +14,8 @@ import pandas as pd
 import numpy as np
 
 ROOT = Path(__file__).resolve().parents[1]
-LMOP = ROOT / 'data/raw/2026-10-06_public_inputs/lmopdata.xlsx'
+sys.path.insert(0, str(ROOT))
+from rng_paths import DERIVED, LMOP
 
 RNG_CATEGORY = 'Renewable Natural Gas'
 RNG_METHODS = {'Pipeline Injection', 'Local Use'}
@@ -31,7 +32,7 @@ def main():
     ap.add_argument('--output', type=Path, required=True)
     args = ap.parse_args()
     out = args.output.resolve()
-    if not out.is_relative_to(ROOT / 'outputs'):
+    if not (out.is_relative_to(ROOT / 'outputs') or out.is_relative_to(DERIVED)):
         raise ValueError('output must stay under outputs/')
     out.mkdir(parents=True, exist_ok=False)
     start = time.monotonic()

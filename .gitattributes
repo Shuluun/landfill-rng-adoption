@@ -1,0 +1,8 @@
+evidence/full_verification_30.csv -text
+evidence/never_operational_full_36_final.csv -text
+evidence/reproduction_reference/*.csv -text
+evidence/reproduction_reference/*.json text eol=lf
+honestdid_r/**/*.csv -text
+honestdid_r/**/*.txt -text
+honestdid_r/**/*.log -text
+honestdid_r/*.R -text

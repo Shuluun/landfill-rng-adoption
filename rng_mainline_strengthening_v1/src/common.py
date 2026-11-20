@@ -3,20 +3,15 @@
 import hashlib
 import json
 from pathlib import Path
+import sys
 
 import pandas as pd
 
 REPO = Path(__file__).resolve().parents[1]
-ROOT = REPO.parent
-LMOP = ROOT / "data/raw/2026-10-06_public_inputs/lmopdata.xlsx"
-HISTORY = ROOT / "inputs/public/topic_selection_2026-10-20/root_sources/national_lmopdata_files_2001-2023.zip"
-EIA = ROOT / "inputs/public/rng_adoption_review_2026-11-04/NaturalGas_InterIntrastate_Pipelines_US_EIA.zip"
-HIFLD = ROOT / "inputs/public/hifld_natural_gas_pipelines_20261104/shapefile_extracted/natural-gas-interstate-and-intrastate-pipelines.shp"
-LANDFILLS = ROOT / "outputs/2026-11-04_rng_denominator_gate/run_001/landfill_level.csv"
-DISTANCES = ROOT / "outputs/2026-11-06_rng_distance_geodesic_verify/run_001/nearest_pipeline_distance_verified.csv"
-AUDIT30 = ROOT / "outputs/2026-11-09_rng_adoption_date_validation_sample/run_001/full_verification_30.csv"
-AUDIT36 = ROOT / "outputs/2026-11-09_rng_never_operational_verify/run_003/never_operational_full_36_final.csv"
-HIST_SCREEN = ROOT / "outputs/2026-11-04_rng_pipeline_signal_audit_002/SNAPSHOT_NEW_OPERATIONAL_CANDIDATES.csv"
+sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
+from rng_paths import (AUDIT30, AUDIT36, DISTANCES, EIA, HIFLD, HISTORY, HIST_SCREEN,
+                       LANDFILLS, LMOP, REFERENCE, ROOT, path_label)
+
 EARLY = 1995
 END = 2024
 SITE = "Landfill ID"
