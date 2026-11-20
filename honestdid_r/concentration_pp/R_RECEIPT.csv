@@ -1,0 +1,2 @@
+"outcome","started_utc","elapsed_seconds","R","HonestDiD","osqp","input_md5","seed","grid_points","l_vec","smallest_covariance_eigenvalue"
+"concentration_pp","2026-11-19 06:37:05 UTC",31.3465631008148,"R version 4.4.1 (2024-06-14 ucrt)","0.2.8","1.0.0","1873fd32bb11347f944a69331f13da66",17261117,1000,"0 0.5 0.5",0.0264301137540392
